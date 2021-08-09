@@ -20,37 +20,37 @@ Em caso alterações grandes, submeta pull requests separados, tendo em vista a 
 Neste repositório, há o arquivo [centroTreinamento.json](Assets/Result/centroTreinamento.json) que contém uma estrutura conforme a seguinte:
 ```json
 {
-  "Skills": [
-    {
-      "Name": "Name",
-      "Tracks": [
-        {
-          "Name": "Name",
-          "Objective": "Objective",
-          "Objectives": [
+   "Competences": [
+      {
+         "Name": "Codificador mestre",
+         "Tracks": [
             {
-              "Name": "Name",
-              "Level": 1,
-              "Learnables": [
-                {
-                  "Name": "Name",
-                  "Contents": [
-                    {
-                      "Description": "Description",
-                      "Link": "Link",
-                      "Type": "Type",
-                      "Language": "Language",
-                      "Order": 1
-                    }
-                  ]
-                }
-              ]
+               "Name": "Excelência de código",
+               "Goal": "Transformá-lo em um excelente codificador...",
+               "Objectives": [
+                  {
+                     "Name": "Desenvolver código legível...",
+                     "Level": 1,
+                     "Learnables": [
+                        {
+                           "Name": "Ferramentas de análise estática de código",
+                           "Contents": [
+                              {
+                                 "Description": "Ferramentas de análise estática...",
+                                 "Link": "https://www.meusite.com.br/meuConteudo",
+                                 "Type": "Read",
+                                 "Language": "PT-BR",
+                                 "Order": 1
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               ]
             }
-          ]
-        }
-      ]
-    }
-  ]
+         ]
+      }
+   ]
 }
 ```
 #### Skill
