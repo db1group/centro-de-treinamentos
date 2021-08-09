@@ -9,11 +9,11 @@ Este é um guia que aponta o caminho de evolução e, a partir dele, os candidat
 
 ## Como contribuir?
 A contribuição com a estrutura ou materiais do centro de treinamentos será feita pela submissão de pull requests à este repositório.
-O arquivo `bla.json` é a fonte dos dados e deverá ser editado na intenção de incluir/editar/remover conteúdos.
+O arquivo [centroTreinamento.json](Assets/Result/centroTreinamento.json) é a fonte dos dados e deverá ser editado na intenção de incluir/editar/remover conteúdos.
 O sistema de gestão de aprendizagem, atualmente, reflete essa estrutura de forma manual, isto é, o conteúdo será incluido/editado/removido com intervenção humana, logo, um pull request que "refatora" a estrutura de forma global como espaçamento ou ordenação dos atuais componentes será descartado.
 
 ### Arquivo fonte de dados
-Neste repositório, há o arquivo `bla.json` que contém uma estrutura conforme a seguinte:
+Neste repositório, há o arquivo [centroTreinamento.json](Assets/Result/centroTreinamento.json) que contém uma estrutura conforme a seguinte:
 ```json
 {
   "Skills": [
@@ -66,7 +66,7 @@ Ou `Conteúdo`, é um conteúdo previamente selecionado (curado) por colaborador
 
 ### Passo a passo
 1. Clone este repositório
-2. Edite o arquivo `bla.json` com novos materiais ou estrutura
+2. Edite o arquivo `[centroTreinamento.json](Assets/Result/centroTreinamento.json)` com novos materiais ou estrutura
 3. Faça o commit, push e abra um pull request contendo a edição
    1. Neste PR, escreva um breve resumo do que está sendo submetido
    2. Toda interação/comunicação será feita por meio do pull request
@@ -92,9 +92,9 @@ Conforme mencionado, o código está preparado para ler um arquivo feito em MS A
 - Utiliza classes de domínio para geração de arquivos `.md`
 
 ### Input
-- Arquivo `.accdb`
+- Arquivo [centroTreinamento.accdb](Assets/centroTreinamento.accdb)
 ### Outputs
-- Arquivo `bla.json` (contendo o banco representado em JSON)
+- Arquivo [centroTreinamento.json](Assets/Result/centroTreinamento.json) (contendo o banco de dados representado em JSON)
 - Arquivos `.md` com a representação do centro de treinamento
 
 ## Próximos passos
