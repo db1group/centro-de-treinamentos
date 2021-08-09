@@ -53,7 +53,7 @@ Neste repositório, há o arquivo [centroTreinamento.json](Assets/Result/centroT
    ]
 }
 ```
-#### Skill
+#### Competence
 Ou `Competência`, é um agrupador de trilhas, por exemplo, _Competência de codificador mestre_. Ao completar as trilhas propostas, é esperado que o colaborador adquira essa competência.
 
 #### Track
@@ -63,31 +63,33 @@ Ou `Trilha`, agrupa objetivos específicos de um objetivo macro, por exemplo, _T
 Ou `Objetivo`, agrupa "aprendíveis". Por exemplo, _objetivo de desenvolver código legível, através de boas práticas de programação e padrões de qualidade, utilizando ferramentas de análise estática de código como apoio_.
 
 #### Learnable
-Ou `aprendível`, agrupa conteúdos. É, em suma, um assunto bastante concreto que precisa ser conhecido. Por exemplo: _ferramentas de análise estática de código_.
+Ou `Aprendível`, agrupa conteúdos. É, em suma, um assunto concreto que precisa ser conhecido. Por exemplo: _ferramentas de análise estática de código_.
 
-#### Contents
+#### Content
 Ou `Conteúdo`, é um conteúdo previamente selecionado (curado) por colaboradores da DB1 (analisado do ponto de vista de praticidade, didática e qualidade). Quando o aprendível é algo subjetivo, os conteúdos podem ser dicas descritivas do assunto.
 
 ### Passo a passo
 1. Clone este repositório
-2. Edite o arquivo [centroTreinamento.json](Assets/Result/centroTreinamento.json) com novos materiais ou estrutura
+2. Edite o arquivo [centroTreinamento.json](Assets/Result/centroTreinamento.json) com sua contribuição
 3. Faça o commit, push e abra um pull request contendo a edição
    1. Neste PR, escreva um breve resumo do que está sendo submetido
    2. Toda interação/comunicação será feita por meio do pull request
 
 ## Contatos
-A gestão deste conteúdo é responsabilidade do time de gestão de pessoas e feedbacks podem ser encaminhados para gp@db1.com.br
+A gestão deste conteúdo é responsabilidade do time de gestão de pessoas e feedbacks podem ser encaminhados para colocar-outro-email-aqui@db1.com.br
 
 # Conteúdo deste repositório
-Este repositório git contém os recursos tecnológicos que possam ser utilizados na elaboração do centro de treinamento. Cada novo item versionado neste repositório será descrito nas seções a seguir.
+Este repositório git armazena os recursos tecnológicos utilizados na elaboração do centro de treinamento. Cada novo item versionado neste repositório será descrito nas seções a seguir.
 
 ## Projeto Converter
-Este foi um projeto criado para converter um material inicial no arquivo JSON fonte das informações. Tal projeto será mantido aqui para histórico ou para algum evenutual uso futuro. A estrutura básica deste programa faz as seguintes tarefas:
+Este foi um projeto criado para converter um material inicial no arquivo JSON fonte das informações. Tal projeto será mantido para histórico ou para algum evenutual uso futuro. A estrutura básica deste programa faz as seguintes tarefas:
 
 - Lê uma base de dados `.accdb` e gera um arquivo `JSON`
 - Lê o arquivo `JSON` e gera arquivos `md` (markdown) com um esqueleto do centro de treinamento
 
-Conforme mencionado, o código está preparado para ler um arquivo feito em MS Access, também versionado neste repositório, que contém os dados originais dos materiais do centro de treinamento. *Atenção*, este arquivo não será mantido, isto é, o arquivo `.accdb` não será atualizado a partir do JSON depois que as contribuições forem aceitas por meio de pull requests.
+Conforme mencionado, o código está preparado para ler um arquivo feito em MS Access, também versionado neste repositório, que contém os dados originais dos materiais do centro de treinamento.
+
+> *Atenção*, este arquivo não será mantido, isto é, o arquivo `.accdb` não será atualizado a partir do JSON depois que as contribuições forem aceitas por meio de pull requests.
 
 ### Tecnologias
 - Aplicação console escrita em C# (.net core 3.1)
@@ -97,10 +99,10 @@ Conforme mencionado, o código está preparado para ler um arquivo feito em MS A
 
 ### Input
 - Arquivo [centroTreinamento.accdb](Assets/centroTreinamento.accdb)
+
 ### Outputs
 - Arquivo [centroTreinamento.json](Assets/Result/centroTreinamento.json) (contendo o banco de dados representado em JSON)
 - Arquivos `.md` com a representação do centro de treinamento. O material completo pode ser visto [aqui](Assets/Result)
 
 ## Próximos passos
 - Criação de trilhas para outras áreas
-- Após consolidação da estrutura em POC do Sensei LMS, gerar arquivos .csv que funcionem com a estrutura 
