@@ -5,9 +5,10 @@ namespace Converter
 {
     internal static class Program
     {
-        private const string JsonFileName = "output//database.json";
-        private const string MarkdownFileName = "output//result.md";
-        private const string DatabaseFileName = "source.accdb";
+        private const string Assets = "../../../../Assets";
+        private static readonly string DatabaseFileName = $"{Assets}/centroTreinamento.accdb";
+        private static readonly string JsonFileName = $"{Assets}/Result/centroTreinamento.json";
+        private static readonly string MarkdownFileName = $"{Assets}/Result/README.md";
 
         private static void Main()
         {

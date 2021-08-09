@@ -1,0 +1,3126 @@
+{
+  "Skills": [
+    {
+      "Name": "Codificador mestre",
+      "Tracks": [
+        {
+          "Name": "Excelência de código",
+          "Objective": "Transformá-lo em um excelente codificador, capaz de criar boas soluções técnicas, utilizando sabiamente os recursos a sua disposição",
+          "Objectives": [
+            {
+              "Name": "Desenvolver código legível, através de boas práticas de programação e padrões de qualidade, utilizando ferramentas de análise estática de código como apoio",
+              "Level": 1,
+              "Learnables": [
+                {
+                  "Name": "Ferramentas de análise estática de código",
+                  "Contents": [
+                    {
+                      "Description": "Ferramentas de análise estática ajudam os times a produzir \"código limpo\"",
+                      "Link": "https://www.eximiaco.tech/pt/2019/11/28/ferramentas-de-analise-estatica-ajudam-os-times-a-produzir-codigo-limpo/",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 3
+                    },
+                    {
+                      "Description": "Esta é uma palestra feita para a comunidade golang, no entanto, a maior parte dos conceitos se aplica a qualquer linguagem, sobre o entendimento de análise estática de código",
+                      "Link": "https://www.infoq.com/br/presentations/analisando-codigo-com-analise-estatica-linters/",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 4
+                    },
+                    {
+                      "Description": "Existem várias ferramentas no mercado. É sempre interessante entender qual é a mais utilizada/otimizada para a sua linguagem de programação, pois as ferramentas evoluem em velocidades diferentes. Caso você não saiba como escolher, uma escolha padrão pode ser o SonarQube. Uma ferramenta simples de utilizar, que possui analisadores na grande maioria das linguagens de programação de mercado, que certamente será um bom passo",
+                      "Link": "https://www.sonarqube.org/",
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Esta é uma lista mantida pela comunidade de ferramentas de análise estática de código para todas as linguagens de programação",
+                      "Link": "https://github.com/analysis-tools-dev/static-analysis",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "Métricas de código",
+                  "Contents": [
+                    {
+                      "Description": "Métrica de software",
+                      "Link": "https://pt.wikipedia.org/wiki/M%C3%A9trica_de_software",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Técnicas de legibilidade",
+                  "Contents": [
+                    {
+                      "Description": "Código legível: Por que, como e quando você deve escrevê-lo",
+                      "Link": "https://www.infoq.com/br/news/2018/10/readable-code/",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "10 practices for readable code",
+                      "Link": "https://jasonmccreary.me/articles/practices-write-readable-code-less-complex/",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 3
+                    },
+                    {
+                      "Description": "Readable Code",
+                      "Link": "https://blog.pragmaticengineer.com/readable-code/",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "Code Calisthenics",
+                  "Contents": [
+                    {
+                      "Description": "Desenvolva um código melhor com Object Calisthenics",
+                      "Link": "https://medium.com/@rafaelcruz_48213/desenvolva-um-c%C3%B3digo-melhor-com-object-calisthenics-d5364767a9ba",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Object Calisthenics",
+                      "Link": "https://www.youtube.com/playlist?list=PL3thWewfjbFTmFzqTrMubfDgFkUNV90-V",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "Código Limpo e Object Calisthenics!",
+                      "Link": "https://youtu.be/p326ltCYieY",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 3
+                    }
+                  ]
+                },
+                {
+                  "Name": "Clean Code",
+                  "Contents": [
+                    {
+                      "Description": "Clean Code: A Handbook of Agile Software Craftsmanship",
+                      "Link": null,
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "Clean Coder, The: A Code of Conduct for Professional Programmers",
+                      "Link": null,
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 3
+                    },
+                    {
+                      "Description": "Clean Architecture: A Craftsman's Guide to Software Structure and Design",
+                      "Link": null,
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 4
+                    },
+                    {
+                      "Description": "Clean Code - Guia e Exemplos",
+                      "Link": "https://balta.io/blog/clean-code",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 5
+                    },
+                    {
+                      "Description": "Para toda linguagem de programação, você encontrará boas práticas relacionadas à ela e ao seu paradigma. Na maioria das vezes, programados orientados a objeto. O Clean code tem um viés de orientação a objetos, mas ensina vários conceitos que podem ser aplicados em qualquer paradigma. Será um grande aprendizado, mesmo que você programe em outras tecnologias/paradigmas. É um tema amplo e que deve ser sempre revisitado durante a sua jornada. Todos os livros citados aqui devem ser lidos e relidos periodicamente. Acredite, a cada nova leitura, você aprenderá uma coisa nova",
+                      "Link": null,
+                      "Type": null,
+                      "Language": null,
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Conhecer design patterns",
+                  "Contents": [
+                    {
+                      "Description": "Padrões de projeto\r\nPadrões de projeto",
+                      "Link": "https://refactoring.guru/pt-br/design-patterns",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Design Patterns // Dicionário do Programador",
+                      "Link": "https://www.youtube.com/watch?v=J-lHpiu-Twk",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "Design Patterns C# I: Boas práticas de programação",
+                      "Link": "https://www.alura.com.br/curso-online-design-patterns-dotnet",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 3
+                    },
+                    {
+                      "Description": "Design Patterns em Java I: Introdução às boas práticas de programação",
+                      "Link": "https://www.alura.com.br/curso-online-introducao-design-patterns-java",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 0
+                    }
+                  ]
+                },
+                {
+                  "Name": "Conhecer boas práticas de programação funcional",
+                  "Contents": [
+                    {
+                      "Description": "Programação Funcional no Java",
+                      "Link": "https://medium.com/@nvieirarafael/programa%C3%A7%C3%A3o-funcional-no-java-2a005964cb20",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Dominar fundamentos de programação",
+              "Level": 4,
+              "Learnables": [
+                {
+                  "Name": "Expressões regulares (REGEX)",
+                  "Contents": [
+                    {
+                      "Description": "Regex: Um guia prático para expressões regulares",
+                      "Link": "https://medium.com/xp-inc/regex-um-guia-pratico-para-express%C3%B5es-regulares-1ac5fa4dd39f",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 3
+                    },
+                    {
+                      "Description": "Fundamentos de Expressões Regulares (Regex)",
+                      "Link": "https://www.udemy.com/course/curso-regex/",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "Uma expressão regular é uma maneira formal de representar um padrão para textos, isto é, textos que \"se parecem\" podem ser descritos utilizando uma expressão regular. Estas expressões podem ser utilizadas para a busca, substituição ou validação de textos.",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Estruturas de dados",
+                  "Contents": [
+                    {
+                      "Description": "Estrutura de Dados (A famosa ED que todo dev tem que aprender)",
+                      "Link": "https://youtu.be/EfF1M7myAyY",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": null
+                    },
+                    {
+                      "Description": "Árvores: O Começo de TUDO | Estruturas de Dados e Algoritmos",
+                      "Link": "https://youtu.be/9GdesxWtOgs",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": null
+                    }
+                  ]
+                },
+                {
+                  "Name": "Algoritmos avançados",
+                  "Contents": [
+                    {
+                      "Description": "O que vem DEPOIS do Hello World",
+                      "Link": "https://www.youtube.com/watch?v=YyWMN_0g3BQ",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "Aqui é importante se familiarizar com eficiência algorítimica, recursão, algoritmos de ordenação, algoritmos criptográficos, algoritmos de hash, etc. Esse conhecimento será extremamente importante para melhores escolhas de desempenho, eficiência e segurança na implementação de sistemas.",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Paradigmas de programação",
+                  "Contents": [
+                    {
+                      "Description": "Paradigmas de programação são formas de organização e estruturação de códigos fonte. Como tudo em desenvolvimento, existe uma relação de pontos positivos em face de alguns negativos para cada paradigma analisado. O conhecimento dos paradigmas permitirá melhores escolhas ao fazer tradeoffs.Algumas tecnologias/linguagens suportam múltiplos paradigmas e muitas vezes os conceitos se misturam. Com o cenário atual, é imprescindível se aprofundar em Orientação à Objetos e Programação Funcional. Para o primeiro, por ser praticamente hegemônico no mercado e para o segundo, por ser tendência e por estar muitas vezes misturado na orientação à objetos.",
+                      "Link": "https://pt.wikipedia.org/wiki/Paradigma_de_programa%C3%A7%C3%A3o",
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Linguagens compiladas e interpretadas",
+                  "Contents": [
+                    {
+                      "Description": "Tecnologias que utilizam compiladores costumam oferecer menor portabilidade (entre plataformas) e maior desempenho de execução por produzirem aretefatos mais próximos do hardware. Já as que utilizam interpretadores costumam inverter tal cenário. Há muitas outras peculiaridades ao comparar tecnologias e saber sobre elas permitirá um melhor embasamento na escolha de tecnologias.",
+                      "Link": "https://pt.stackoverflow.com/questions/77070/qual-a-diferen%C3%A7a-entre-linguagem-compilada-para-linguagem-interpretada",
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Conhecer o básico da sua linguagem de programação e desenvolver atividades de baixa complexidade com facilidade",
+              "Level": 1,
+              "Learnables": [
+                {
+                  "Name": "Conhecer os recursos básicos para executar e debugar uma aplicação",
+                  "Contents": [
+                    {
+                      "Description": "Você vai precisar saber como instalar o ambiente necessário para executar um código \"hello world\" para a linguagem escolhida. Isso inclui o ambiente de desenvolvimento (IDE, editor, etc) e ambiente de execução (SDK, servidor, etc.)",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Você vai precisar aprender utilizar breaking points, inspeções, e demais recursos que a IDE oferece",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "Web Standards (css + javascript + html)",
+                  "Contents": [
+                    {
+                      "Description": "Web Standards segundo a W3C",
+                      "Link": "https://www.w3.org/standards/",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "O que são Web Standards",
+                      "Link": "https://www.maujor.com/tutorial/o-que-sao-web-standards.php",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Curso Web Moderno Completo",
+                      "Link": "https://www.udemy.com/course/curso-web/",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 3
+                    },
+                    {
+                      "Description": "Escola HTML e CSS",
+                      "Link": "https://www.alura.com.br/cursos-online-front-end/html-css",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 4
+                    },
+                    {
+                      "Description": "Escola JavaScript",
+                      "Link": "https://www.alura.com.br/cursos-online-front-end/javascript",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Utilizar adequadamente as ferramentas de versionamento de código e as estratégias de branch de mercado",
+              "Level": 2,
+              "Learnables": [
+                {
+                  "Name": "Git",
+                  "Contents": [
+                    {
+                      "Description": "Version Control System Introduction - Georgia Tech - Software Development Process",
+                      "Link": "https://www.youtube.com/watch?v=zbKdDsNNOhg",
+                      "Type": "Watch",
+                      "Language": "EN-US",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Entendendo GIT | (não é um tutorial!)",
+                      "Link": "https://youtu.be/6Czd1Yetaac",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "Git e Github: Controle e compartilhe seu código",
+                      "Link": "https://www.alura.com.br/curso-online-git-github-controle-de-versao",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 3
+                    }
+                  ]
+                },
+                {
+                  "Name": "Git workflows",
+                  "Contents": [
+                    {
+                      "Description": "Gitflow",
+                      "Link": "https://www.youtube.com/watch?v=dJjVr6Ya7B8",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Github flow - Understanding the Github flow",
+                      "Link": "https://guides.github.com/introduction/flow/",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "Github flow - Colocando a casa em ordem com Github Flow",
+                      "Link": "https://www.youtube.com/watch?v=D2ui0ykSZog",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 3
+                    },
+                    {
+                      "Description": "Gitlab flow - Introduction to Gitlab Flow",
+                      "Link": "https://docs.gitlab.com/ee/topics/gitlab_flow.html",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 4
+                    },
+                    {
+                      "Description": "Gitlab Flow",
+                      "Link": "https://www.youtube.com/watch?v=InKNIvky2KE",
+                      "Type": "Watch",
+                      "Language": "EN-US",
+                      "Order": 5
+                    },
+                    {
+                      "Description": "OneFlow - a git branching model and workflow",
+                      "Link": "https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 6
+                    },
+                    {
+                      "Description": "Git e Github: Estratégias de ramificação, Conflitos e Pull Requests",
+                      "Link": "https://www.alura.com.br/curso-online-git-github-branching-conflitos-pull-requests",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 7
+                    }
+                  ]
+                },
+                {
+                  "Name": "Commit semântico",
+                  "Contents": [
+                    {
+                      "Description": "Conventional Commits",
+                      "Link": "https://www.conventionalcommits.org/pt-br",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "O que é Commit e como usar Commits Semânticos",
+                      "Link": "https://blog.geekhunter.com.br/o-que-e-commit-e-como-usar-commits-semanticos/",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "Sistemas de controle de versões",
+                  "Contents": [
+                    {
+                      "Description": "O conceito de um sistema de controle de versões define o gerenciamento de alterações em códigos fonte de sistemas. A ideia é manter e controlar o histórico dessas alterações. Há muitos conceitos relacionados à esse tipo de sistema, assim como várias ferramentas dispóníveis cuja familiaridade é recomendada. Apesar de git ser possivelmente a ferramenta mais adotada, a experimentação de outras ampliará seu conhecimento ao correlacionar conceitos e recursos, por exemplo, quando um commit no git é análogo à um check-in no TFVC.",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Desenvolver código com alto nível qualidade",
+              "Level": 2,
+              "Learnables": [
+                {
+                  "Name": "Conhecer e aplicar revisão de códigos",
+                  "Contents": [
+                    {
+                      "Description": "Best Practices for Code Review",
+                      "Link": "https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": null
+                    },
+                    {
+                      "Description": "How to do a code review",
+                      "Link": "https://google.github.io/eng-practices/review/reviewer/",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": null
+                    },
+                    {
+                      "Description": "How to Make Good Code Reviews Better",
+                      "Link": "https://stackoverflow.blog/2019/09/30/how-to-make-good-code-reviews-better/",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": null
+                    },
+                    {
+                      "Description": "13 Practices for Better Code Reviews",
+                      "Link": "https://www.infoq.com/articles/practices-better-code-reviews/",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": null
+                    },
+                    {
+                      "Description": "Boas práticas para Code Review",
+                      "Link": "https://blog.db1group.com/boas-praticas-para-code-review/",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": null
+                    }
+                  ]
+                },
+                {
+                  "Name": "Aprender técnicas de refatoração de código",
+                  "Contents": [
+                    {
+                      "Description": "Refactoring: Improving the Design of Existing Code",
+                      "Link": null,
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 6
+                    },
+                    {
+                      "Description": "Introdução à Refatoração",
+                      "Link": "https://www.devmedia.com.br/introducao-a-refatoracao/21377",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 5
+                    },
+                    {
+                      "Description": "Entenda o que é refatoração e suas principais técnicas",
+                      "Link": "https://blog.geekhunter.com.br/refatoracao/",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 4
+                    },
+                    {
+                      "Description": "C# Refatoração Parte 1: Praticando refatoração de código",
+                      "Link": "https://www.alura.com.br/curso-online-csharp-refatorando-codigo",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Refactoring - What is refactoring",
+                      "Link": "https://refactoring.guru/pt-br/refactoring/what-is-refactoring",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "Refactoring - Techniques",
+                      "Link": "https://refactoring.guru/pt-br/refactoring/techniques",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 3
+                    }
+                  ]
+                },
+                {
+                  "Name": "Entender o que são code smells e como eliminá-los",
+                  "Contents": [
+                    {
+                      "Description": "Refactoring - Code Smells",
+                      "Link": "https://refactoring.guru/pt-br/refactoring/smells",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Conhecer as principais funcionalidades da tecnologia em que atua, criando código que aproveite as facilidades que ela oferece",
+              "Level": 3,
+              "Learnables": [
+                {
+                  "Name": "Obter certificações na linguagem de programação de atuação principal",
+                  "Contents": [
+                    {
+                      "Description": "O mestre dos códigos é uma ferramenta para validar seu conhecimento em linguagens de programação",
+                      "Link": "https://mestredoscodigos.com.br/",
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Para a maioria das tecnologias e ferramentas consolidadas no mercado existem também certificações tradicionais que irão \"comprovar\" seu conhecimento no assunto. Este é um tema polêmico. Cada vez mais importa menos um papel que \"comprove\" seu conhecimento no mercado. O que realmente importa é se você sabe resolver problemas com este conhecimento, o dito conhecimento aplicado. No entanto, o processo de busca pela certificação te leva por uma jornada de conhecimento muito rica. E esta é a grande dica: tire certificações pensando na jornada do conhecimento adquirido, o aprendizado, e o conhecimento aplicado, o papel será apenas uma consequência",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "Aprender sobre o codestyle da linguagem de programação de atuação principal",
+                  "Contents": [
+                    {
+                      "Description": "A padronização de estilos de codificação é uma convenção na escrita de código. É importante ressaltar que cada linguagem de programação pode ter sua própria variação; como nomeação de variáveis, acrônicmos, comentários. Para que possa aprender, procure por Code Style + sua linguagem de programação, exemplo: Code Style C# ou Code Convention C#",
+                      "Link": "https://codestyle.co",
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Dominar estratégias de performance e escalabilidade, criando códigos que atendam essas necessidades",
+              "Level": 4,
+              "Learnables": [
+                {
+                  "Name": "Conhecer memórias heap e stack e como sua linguagem as gerencia",
+                  "Contents": [
+                    {
+                      "Description": "Gerenciamento de Memória",
+                      "Link": "https://youtu.be/9AK_1gqEfkQ",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": null
+                    },
+                    {
+                      "Description": "Demystifying memory management in modern programming languages",
+                      "Link": "https://dev.to/deepu105/demystifying-memory-management-in-modern-programming-languages-ddd",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": null
+                    }
+                  ]
+                },
+                {
+                  "Name": "Entender paralelismo. Conceitualmente e aplicado à sua linguagem de programação",
+                  "Contents": [
+                    {
+                      "Description": "Programação paralela",
+                      "Link": "https://www.devmedia.com.br/programacao-paralela/21405",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": null
+                    },
+                    {
+                      "Description": "Threads em Java 1: Programação paralela",
+                      "Link": "https://www.alura.com.br/conteudo/threads-java-1",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": null
+                    }
+                  ]
+                },
+                {
+                  "Name": "Aprender estratégias de como lidar problemas decorrentes do uso de concorrência",
+                  "Contents": [
+                    {
+                      "Description": "Quando execuções paralelas são colocadas em prática, seja na mesma máquina ou em máquinas diferentes, vários problemas podem ocorrer devido à acessos indevidos à recursos compartilhados ou execuções mal sincronizadas. Muitos conceitos podem ser aprendidos para ajudar na detecção e resolução de eventuais problemas. Conceitos como deadlocks, starvation, recursos thread-safe, semáforos, etc. devem ser conhecimentos consolidados.",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Entender estratégias de escalabilidade",
+                  "Contents": [
+                    {
+                      "Description": "O conceito de escalabilidade está relacionado à maneira de adicionar poder computacional em sistemas para o permitir que os mesmos suportem maiores cargas. É necessário conhecer termos como escalabilidade vertical, escalabilidade horizontal, balanceamento de carga, elasticidade, dentre outros.",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Conhecer sobre coletores de lixo (garbage collectors)",
+                  "Contents": [
+                    {
+                      "Description": "O gerenciamento da memória de um software deve ser feito de forma manual em linguagens de programação mais antigas. Linguagens mais modernas, por sua vez, amenizam essa responsabilidade dos programadores com a aplicação de recursos como o coletor de lixo que libera memória previamente alocada para reutilização posterior. O conhecimento sobre esse assunto é importante para que o desenvolvedor possa otimizar o consumo de recursos computacionais.",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Aprender sobre profilers",
+                  "Contents": [
+                    {
+                      "Description": "Profilers são ferramentas para permitir a \"telemetria\" de um software em execução. Em linhas gerais o profiler é anexado à um software em execução que inspeciona tempos de execução de métodos, consumo de memória ao longo do tempo, vazamentos de memória, dentre outros.",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Aprender sobre o uso de cacheamento",
+                  "Contents": [
+                    {
+                      "Description": "Quando acessar alguma informação na sua fonte é um processo custoso, é possível adicionar um dispositivo intermediário no sistema para disponibilizar tal informação mais rapidamente. Essa é a técnica de caching, amplamente utilizada para ecnomizar recursos computacionais.",
+                      "Link": "https://pt.wikipedia.org/wiki/Cache",
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Mecanismo de cache distribuído (Arch Month DB1)",
+                      "Link": "https://www.youtube.com/watch?v=CRtSYqfEJKQ",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "Desenvolvimento seguro",
+          "Objective": "Ensiná-lo como identificar problemas de segurança e proteger aplicações, eliminando suas vulnerabilidades",
+          "Objectives": [
+            {
+              "Name": "Conhecer as principais organizações que regem segurança em desenvolvimento de software e as principais vulnerabilidades catalogadas por elas",
+              "Level": 1,
+              "Learnables": [
+                {
+                  "Name": "Conhecer principais organizações que recomendam práticas de desenvolvimento de software seguro",
+                  "Contents": []
+                },
+                {
+                  "Name": "Conhecer OWASP (Open Web Application Security Project) TOP 10",
+                  "Contents": [
+                    {
+                      "Description": "OWASP Top 10",
+                      "Link": "https://owasp.org/www-project-top-ten/",
+                      "Type": "Tip",
+                      "Language": "EN-US",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Conhecer CWE (Common Weakness Enumeration)/SANS TOP 25",
+                  "Contents": [
+                    {
+                      "Description": "Common Weakness Enumeration",
+                      "Link": "https://cwe.mitre.org/data/index.html",
+                      "Type": "Tip",
+                      "Language": "EN-US",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Conhecer as leis e certificações que regem a segurança de dados",
+              "Level": 1,
+              "Learnables": [
+                {
+                  "Name": "Conhecer LGPD",
+                  "Contents": [
+                    {
+                      "Description": "LGPD: Entenda Tudo sobre a Lei Geral de Proteção de Dados",
+                      "Link": "https://blog.tangerino.com.br/lgpd/",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "LGPD: Conhecendo e entendendo seus impactos",
+                      "Link": "https://www.alura.com.br/curso-online-lgpd-visao-impactos",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "LGPD: Lei Geral de Proteção de Dados (podcast)",
+                      "Link": "https://www.alura.com.br/podcast/hipsterstech-lgpd-lei-geral-de-protecao-de-dados-hipsters-174-a393",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 3
+                    }
+                  ]
+                },
+                {
+                  "Name": "Conhecer ISO 27000",
+                  "Contents": [
+                    {
+                      "Description": "Empresas que trabalham com tecnologia da informação e atuam em áreas em que há exigência de proteção de dados sensíveis irão repassar essa mesma exigência para prestadores de serviço. Uma certificação ISO 27000 facilita o processo de parceria, uma vez que atesta à uma empresa a sua aderência à processos e procedimentos descritos no padrão. Sendo assim, a empresa contratante não tem necessidades fiscalizatórias.",
+                      "Link": "https://pt.wikipedia.org/wiki/ISO_/_IEC_27000",
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Proteger as aplicações que desenvolve com o uso de autenticação e autorização",
+              "Level": 2,
+              "Learnables": [
+                {
+                  "Name": "Oauth",
+                  "Contents": [
+                    {
+                      "Description": "OAuth 2.0",
+                      "Link": "https://oauth.net/2/",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "OpenID Connect",
+                      "Link": "https://openid.net/connect/",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "JWT",
+                  "Contents": [
+                    {
+                      "Description": "JSON Web Tokens",
+                      "Link": "https://jwt.io/",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Basic Auth",
+                  "Contents": []
+                },
+                {
+                  "Name": "LDAP",
+                  "Contents": [
+                    {
+                      "Description": "Lightweight Directory Access Protocol",
+                      "Link": "https://pt.wikipedia.org/wiki/LDAP",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Desenvolver software seguro, protegido contra os ataques mais comuns",
+              "Level": 3,
+              "Learnables": [
+                {
+                  "Name": "Entender como proteger a aplicação, com base nos ataques mais comuns",
+                  "Contents": [
+                    {
+                      "Description": "Formação Segurança de aplicações",
+                      "Link": "https://www.alura.com.br/formacao-seguranca-de-aplicacoes",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "Formação OWASP",
+                      "Link": "https://www.alura.com.br/formacao-owasp",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Entender como desenvolver o software seguindo os padrões exigidos pela LGPD",
+                  "Contents": [
+                    {
+                      "Description": "O que muda com a LGPD?",
+                      "Link": "https://www.serpro.gov.br/lgpd/menu/a-lgpd/o-que-muda-com-a-lgpd",
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Aprender como detectar vulnerabilidades em softwares",
+              "Level": 4,
+              "Learnables": [
+                {
+                  "Name": "PENTEST",
+                  "Contents": [
+                    {
+                      "Description": "O que é um teste de intrusão",
+                      "Link": "https://pt.wikipedia.org/wiki/Teste_de_intrus%C3%A3o",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Ferramentas para análise de vulnerabilidade",
+                  "Contents": [
+                    {
+                      "Description": "Essas ferramentas auxiliarão na detecção de problemas de implementação ou infraestrutura. Poderão analisar desde um software em execução até o código fonte em busca de tais problemas",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Aprender sobre critpografia e certificados digitais",
+              "Level": 2,
+              "Learnables": [
+                {
+                  "Name": "Criptografia simétrica",
+                  "Contents": [
+                    {
+                      "Description": "Criptografia simétrica é o tipo de criptografia que utiliza a mesma chave para cifrar e decifrar um conteúdo",
+                      "Link": "https://pt.wikipedia.org/wiki/Algoritmo_de_chave_sim%C3%A9trica",
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Criptografia assimétrica",
+                  "Contents": [
+                    {
+                      "Description": "Criptografia assimétrica é o tipo de criptografia em que são utilizadas duas chaves no processo, uma para cifrar e outra para decifrar um conteúdo. Isso permite manter uma chave pública para cifrar conteúdos que só poderão ser conhecidos por quem possui a chave privada relacionada",
+                      "Link": "https://pt.wikipedia.org/wiki/Criptografia_de_chave_p%C3%BAblica",
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Certificados digitais",
+                  "Contents": [
+                    {
+                      "Description": "O que é certificado digital",
+                      "Link": "https://www.certisign.com.br/certificado-digital",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "Testabilidade",
+          "Objective": "Conhecer os tipos de testes existentes e como implementá-los com excelência, aplicando a técnica adequada a cada cenário.",
+          "Objectives": [
+            {
+              "Name": "Conhecer os tipos de testes automatizados existentes e entender os conceitos de mocks e stubs",
+              "Level": 1,
+              "Learnables": [
+                {
+                  "Name": "Mocks, spies e stubs",
+                  "Contents": [
+                    {
+                      "Description": "Os testes de unidade são chamados assim por testar \"unidades\" de código. Visando a didática, uma unidade de código pode ser resumido à um método ou uma função. Para manter o teste isolado como se propõe, todos os recursos utilizados pela tal unidade de código, não poderão ser os recursos de produção (reais). Mocks, spies e stubs são utilizados como dublês de recursos reais, permitindo validar interações ocorridas nesses recursos",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Conhecer a biblioteca de testes utilizada no projeto em que atua",
+                  "Contents": [
+                    {
+                      "Description": "A execução de testes automatizados se dá por meio do uso de bibliotecas para este fim. Cada biblioteca oferece um conjunto específico de recrusos e maneiras específicas para sua utilização. O conhecimento aprofundado na biblioteca que utiliza permitirá explorar recursos que facilitarão a escrita/execução de testes automatizados",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Tipos de testes",
+                  "Contents": [
+                    {
+                      "Description": "Testar software, de forma automatizada ou manual, é uma grande área por si só. É essencial conhecer os tipos de testes existentes e conceitos relacionados",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Lightning Talk: Introdução ao Contract Testing",
+                      "Link": "https://www.youtube.com/watch?v=bvI5DKgFsQw",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "Por que automatizar os testes ?",
+                      "Link": "https://www.youtube.com/watch?v=Bl7sV80y-UA",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 3
+                    }
+                  ]
+                },
+                {
+                  "Name": "AAA",
+                  "Contents": [
+                    {
+                      "Description": "Sigla para Arrange, Act e Assert (preparar, agir e afirmar), AAA é um padrão essencial para a escrita de testes automatizados",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Testes de unidade",
+                  "Contents": [
+                    {
+                      "Description": "Testes automatizados de software",
+                      "Link": "https://www.casadocodigo.com.br/products/livro-testes-de-software",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Test-Driven Development",
+                      "Link": "https://www.casadocodigo.com.br/products/livro-tdd",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "Lightning Talk - Teste unitário no Front-end",
+                      "Link": "https://www.youtube.com/watch?v=nflPF0HDFHo",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 3
+                    },
+                    {
+                      "Description": "Lightning Talk - Nunca confie em um teste que não quebra",
+                      "Link": "https://www.youtube.com/watch?v=LNAykaTF7jI",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Conhecer boas práticas de implementação de testes automatizados",
+              "Level": 2,
+              "Learnables": [
+                {
+                  "Name": "Cobertura de código",
+                  "Contents": [
+                    {
+                      "Description": "Cobertura de código é um indicador em porcentagem da quantidade de código de produção de um sistema que foi chamado no momento que a suíte de testes foi executada",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "TDD",
+                  "Contents": [
+                    {
+                      "Description": "Sigla para Test Driven Development, o TDD é uma metologia de escrita de sistemas em que o foco é a testabilidade, chegando inclusive na máxima em que os testes são escritos antes mesmo da existência dos códigos que testarão",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "BDD",
+                  "Contents": [
+                    {
+                      "Description": "BDD é uma técnica de desenvolvimento que visa aproximar as áreas de negócio e técnicas, utilizando de uma linguagem formal mais alto nível para a escrita dos comportamentos",
+                      "Link": "https://pt.wikipedia.org/wiki/Behavior_Driven_Development",
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Implementar testes automatizados avançados",
+              "Level": 3,
+              "Learnables": [
+                {
+                  "Name": "Utilização de repositórios em memória",
+                  "Contents": [
+                    {
+                      "Description": "Ao executar testes automatizados de integração, pode ser necessária a utilização de armazenamento de dados e, dada a complexidade de instalação e o consumo de recursos, é possível simular esse armazenamento em memória. Há bibliotecas e técnicas para a correta utilização deste conceito",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Testes de integração",
+                  "Contents": [
+                    {
+                      "Description": "Teste de integração é qualquer teste que interaja mais de um componente de software, isto é, engloba mais recursos que um teste de unidade. O aprendizado de técnicas relacionadas a testes de integração trará benefícios na escrita e desempenho de testes de um sistema",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Testes automatizados com Cucumber + HTTParty",
+                      "Link": "https://www.youtube.com/watch?v=xlptiFRsEv0",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "Cucumber não é BDD",
+                      "Link": "https://www.youtube.com/watch?v=VHo9SHJiISY#https://www.youtube.com/watch?v=VHo9SHJiISY",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 3
+                    }
+                  ]
+                },
+                {
+                  "Name": "E2E",
+                  "Contents": [
+                    {
+                      "Description": "Acrônimo para End to End, o E2E é um tipo de teste automatizado que verifica a integração completa de um sistema, no caso mais comum este teste fará a interação com a interface do usuário que estará conectada com todos os componentes reais até o sistema de armazenamento",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Relevância técnica",
+      "Tracks": [
+        {
+          "Name": "Referência técnica",
+          "Objective": "Te levar ao próximo nível, conhecendo mais conceitos/técnicas e ferramentas para resolver problemas cada vez mais complexos",
+          "Objectives": [
+            {
+              "Name": "Conhecer banco de dados relacionais, sendo capaz de realizar operações de escrita e leitura",
+              "Level": 1,
+              "Learnables": [
+                {
+                  "Name": "Dominar comandos DDL e DML",
+                  "Contents": [
+                    {
+                      "Description": "Siglas para Data Definition Language e Data Manipulation Language, DDL e DML definem instruções para administração de metadados e dados respectivamente, isto é, DDL define estruturas e DML manipula dados dentro dessas estruturas",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Controle transacional e conceito de atomicidade",
+                  "Contents": [
+                    {
+                      "Description": "Atomicidade é um conceito de bancos de dados que descreve o agrupamento de múltiplas operações que devem ocorrer de forma indivisível: ou todas funcionam ou todas falham. O controle transacional é o meio pelo qual transações atômicas são gerenciadas",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Entender como funcionam índices e constraints",
+                  "Contents": [
+                    {
+                      "Description": "Em bancos de dados relacionais, índices são estruturas que otimizam a busca dos dados e as constraints são regras que os programadores podem definir para garantir a consistência de dados",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Aprender sobre ferramentas para elaboração de diagramas de entidades e relacionamentos",
+                  "Contents": [
+                    {
+                      "Description": "As entidades e os relacionamentos entre elas nos bancos de dados costumam ser demonstradas por meio de diagramas. Existem inúmeras ferramentas que possibilitam desenhar essa representação",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "SQL Joins",
+                  "Contents": [
+                    {
+                      "Description": "Ao fazer uma consulta em um banco de dados, a união entre tabelas pode ser feita de várias formas formas conhecidas como JOINS. Cada qual tem sua peculiaridade do tipo de resultado fornecido",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Conhecer ACID",
+                  "Contents": [
+                    {
+                      "Description": "ACID é um acrônimo para Atomicidade, Consistência, Isolamento e Durabilidade que são propriedades de transações de bancos de dados",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Conhecer técnicas avançadas de prototipação e desenvolvimento de frontends web",
+              "Level": 1,
+              "Learnables": [
+                {
+                  "Name": "Saber técnicas de CSS (Flex-box, grid, etc...)",
+                  "Contents": [
+                    {
+                      "Description": "Com a hegemonia de sistemas web e aplicativos de celular utilizando frameworks compartilhados, conhecer técnicas e tecnologias relacionadas à CSS são imprescindíveis",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Boas práticas CSS (BEM, PPCSS, SMACSS, SUITCSS, Atomic, etc.)",
+                  "Contents": [
+                    {
+                      "Description": "Sendo CSS um assunto basilar do desenvolvimento web, é imprescindível o conhecimento das melhores maneiras de se trabalhar com esta linguagem além da sua leitura e escrita",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Canvas e SVG",
+                  "Contents": [
+                    {
+                      "Description": "Uma das preocupações em desenvolvimento web é o tamanho em bytes do que precisa ser trafegado. Como imagens em mapa de bits são relativamente pesadas, alguns desenhos podem ser renderizados no próprio navegador utilizando essas técnicas",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Less, Sass, Stylus",
+                  "Contents": [
+                    {
+                      "Description": "Como CSS pode gerar trabalho repetitivo, essas são linguagens que produzem CSS a partir de sintaxes mais ergonômicas para os desenvolvedores",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Conhecer sobre cultura DevOps",
+              "Level": 1,
+              "Learnables": [
+                {
+                  "Name": "Continuous integration",
+                  "Contents": [
+                    {
+                      "Description": "O que é Continuous Delivery, Continuous Integration e Continuous Deployment?",
+                      "Link": "https://youtu.be/j0DNdPXTBi0",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": null
+                    },
+                    {
+                      "Description": "Integração contínua (CI) do zero",
+                      "Link": "https://blog.rocketseat.com.br/integracao-continua-ci-do-zero/",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": null
+                    }
+                  ]
+                },
+                {
+                  "Name": "Continuous delivery",
+                  "Contents": [
+                    {
+                      "Description": "Continuous delivery é uma prática no desenvolvimento de sistemas que visa entregas mais frequentes",
+                      "Link": "https://en.wikipedia.org/wiki/Continuous_delivery",
+                      "Type": "Tip",
+                      "Language": "EN-US",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Continuous deployment",
+                  "Contents": [
+                    {
+                      "Description": "Entrega contínua é uma prática no desenvolvimento de software que visa automatizar as entregas em ambiente de produção de forma facilitada e frequente",
+                      "Link": "https://en.wikipedia.org/wiki/Continuous_deployment",
+                      "Type": "Tip",
+                      "Language": "EN-US",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "O que é DevOps",
+                  "Contents": [
+                    {
+                      "Description": "O que é DevOps ?",
+                      "Link": "https://db1global-my.sharepoint.com/:p:/g/personal/cesar_sturion_db1_com_br/Ea5Jck4_bJVFhpPjJH2n0wwBkoi_1AZ2Z3O5TlxruA8g3Q?e=4%3AStMMdw&at=9",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "A cultura DevOps agrupa muitos conceitos e práticas que visam facilitar e automatizar a entrega, eventualmente até o ambiente de produção, de softwares, suas modificações e correções de erro",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Formação DevOps",
+                      "Link": "https://www.alura.com.br/formacao-devops",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Aprender conceitos e tecnologias fora da rotina",
+              "Level": 1,
+              "Learnables": [
+                {
+                  "Name": "Aprender uma linguagem de programação fora da que trabalha",
+                  "Contents": [
+                    {
+                      "Description": "Procure por tendências de mercado para dedicar aprendizado à linguagens promissoras ou aprenda alguma linguagem em outro paradigma ou filosofia para ampliar a abrangência de atuação",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Aprender tecnologias de armazenamento de dados fora da que trabalha",
+                  "Contents": [
+                    {
+                      "Description": "Existem muitas tecnologias para armazenamento de informações. O aprendizado de outros modelos permite atuação facilitada em diferentes projetos",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Conhecer protocolos de comunicação mais comuns e como utilizá-los adequadamente",
+              "Level": 2,
+              "Learnables": [
+                {
+                  "Name": "HTTP/S",
+                  "Contents": [
+                    {
+                      "Description": "O que é HTTPS: veja a segurança que ele traz ao site e como aumentá-la",
+                      "Link": "https://cryptoid.com.br/ssl-tls/o-que-e-https-veja-a-seguranca-que-ele-traz-ao-site-e-como-aumenta-la-ouca/",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": null
+                    },
+                    {
+                      "Description": "SSL, SSH, HTTPS. O que são e para que servem?",
+                      "Link": "https://cryptoid.com.br/ssl-tls/o-que-sao-ssl-ssh-https/",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": null
+                    }
+                  ]
+                },
+                {
+                  "Name": "Socket/WebSocket",
+                  "Contents": [
+                    {
+                      "Description": "Soquete de rede",
+                      "Link": "https://pt.wikipedia.org/wiki/Soquete_de_rede",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "WebSocket",
+                      "Link": "https://pt.wikipedia.org/wiki/WebSocket",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "Rest",
+                  "Contents": [
+                    {
+                      "Description": "Representational state transfer",
+                      "Link": "https://en.wikipedia.org/wiki/Representational_state_transfer",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "GraphQL",
+                  "Contents": [
+                    {
+                      "Description": "GraphQL é uma linguagem de consulta para  APIs",
+                      "Link": "https://en.wikipedia.org/wiki/GraphQL",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "SSH",
+                  "Contents": [
+                    {
+                      "Description": "O que é SSH?",
+                      "Link": "https://youtu.be/IaFfmNWyB7Q",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": null
+                    },
+                    {
+                      "Description": "O Que é SSH e Como Funciona?",
+                      "Link": "https://www.weblink.com.br/blog/tecnologia/acesso-ssh-o-que-e/",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": null
+                    }
+                  ]
+                },
+                {
+                  "Name": "TCP/UDP",
+                  "Contents": [
+                    {
+                      "Description": "TCP",
+                      "Link": "https://pt.wikipedia.org/wiki/Transmission_Control_Protocol",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "UDP",
+                      "Link": "https://pt.wikipedia.org/wiki/User_Datagram_Protocol",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Conhecer recursos avançados de banco de dados relacionais",
+              "Level": 2,
+              "Learnables": [
+                {
+                  "Name": "Analisar plano de execução de consultas",
+                  "Contents": [
+                    {
+                      "Description": "Quando uma consulta será executada, o banco de dados faz um planejamento de como obterá os dados das estruturas. Ao utilizar ferramentas de administração, é possível obter os planos de execução das consultas. A análise destes planos viabiliza a descoberta de pontos de otimização",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Guia da Arquitetura de Processamento de Consultas",
+                      "Link": "https://docs.microsoft.com/pt-br/sql/relational-databases/query-processing-architecture-guide?view=sql-server-ver15",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "Dez dicas para otimizar o desempenho do SQL Server",
+                      "Link": "https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/pt/br/top_10_tips_for_optimizing-final_br.pdf",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 3
+                    }
+                  ]
+                },
+                {
+                  "Name": "Conhecer SQL Profiler",
+                  "Contents": [
+                    {
+                      "Description": "Assim como outros profilers, o SQL Profiler faz a \"telemetria\" das consultas disparadas em um banco de dados. Com esta ferramenta é possível monitorar as ocorrências para auditoria ou otimização de consultas",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Identificar a necessidade de criação de índices",
+                  "Contents": [
+                    {
+                      "Description": "Quando a execução de uma consulta é identificada com um problema de performance, em muitos casos é necessária a criação de índices para que os dados sejam mais facilmente localizados. A investigação dessa necessidade conciliada com o custo benefício da manutenção do índice (gravações mais caras) é uma habilidade a ser desenvolvida",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Conhecer Linked Server",
+                  "Contents": [
+                    {
+                      "Description": "Linked Server é uma tecnologia do SQL Server que permite a comunicação segura entre dois servidores de bancos de dados que pode ser utilizado para consultas agrupando dados dos dois servidores",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Compreender e ter proficiência no uso das bases relacionais mais comuns",
+                  "Contents": [
+                    {
+                      "Description": "Formação SQL e Banco de Dados",
+                      "Link": "https://www.alura.com.br/cursos-online-data-science/sql",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Conhecer o ambiente de execução e ecossistema envolvido de um aplicação para realizar pequenas manutenções",
+              "Level": 3,
+              "Learnables": [
+                {
+                  "Name": "Clouds",
+                  "Contents": [
+                    {
+                      "Description": "De forma simplista, uma cloud é uma infraestrutura terceirizada que cobra pelo uso de seus recursos. Como a manutenção de servidores em infraestrutura própria é relativamente cara, muitas empresas optam por hospedar seus sistemas nessas plataformas",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Formação AWS Certified Solutions Architect - Associate",
+                      "Link": "https://www.alura.com.br/formacao-aws-certified-solutions-architect-associate",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "Formação AWS Certified Cloud Practitioner",
+                      "Link": "https://www.alura.com.br/formacao-aws-certified-cloud-practitioner",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 3
+                    },
+                    {
+                      "Description": "Formação Certificação AZ-900: Microsoft Azure Fundamentals",
+                      "Link": "https://www.alura.com.br/formacao-certificacao-az-900-microsoft-azure-fundamentals",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 4
+                    },
+                    {
+                      "Description": "Formação Google Certified Associate Cloud Engineer",
+                      "Link": "https://www.alura.com.br/formacao-google-certified-associate-cloud-engineer",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 5
+                    }
+                  ]
+                },
+                {
+                  "Name": "Linux",
+                  "Contents": [
+                    {
+                      "Description": "Linux Expert",
+                      "Link": "https://school.linuxtips.io/p/linux-expert",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": null
+                    },
+                    {
+                      "Description": "LINUXweek: Introdução ao mundo Linux",
+                      "Link": "https://youtu.be/zGE4UxYndrk",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": null
+                    },
+                    {
+                      "Description": "Primeiros Passos no Linux - Conceitos e Principais Comandos",
+                      "Link": "https://www.udemy.com/course/primeiros-passos-no-linux/",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": null
+                    },
+                    {
+                      "Description": "Linux Completo para Usuário Comum ou Desenvolvedor",
+                      "Link": "https://www.udemy.com/course/curso-de-linux-completo-para-usuario-comum-ou-desenvolvedor/",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": null
+                    },
+                    {
+                      "Description": "Linux, DevOps",
+                      "Link": "https://www.alura.com.br/cursos-online-devops/linux-comandos-e-processos",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": null
+                    }
+                  ]
+                },
+                {
+                  "Name": "Docker",
+                  "Contents": [
+                    {
+                      "Description": "Descomplicando o Docker",
+                      "Link": "https://www.youtube.com/playlist?list=PLf-O3X2-mxDk1MnJsejJwqcrDC5kDtXEb",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": null
+                    },
+                    {
+                      "Description": "Docker para desenvolvedores",
+                      "Link": "https://leanpub.com/dockerparadesenvolvedores",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": null
+                    },
+                    {
+                      "Description": "Containers com Docker",
+                      "Link": "https://www.casadocodigo.com.br/products/livro-docker",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": null
+                    },
+                    {
+                      "Description": "Formação Certificação Docker DCA",
+                      "Link": "https://www.alura.com.br/formacao-docker-dca",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": null
+                    }
+                  ]
+                },
+                {
+                  "Name": "Kubernetes",
+                  "Contents": [
+                    {
+                      "Description": "Descomplicando o Kubernetes no youtube",
+                      "Link": "https://youtube.com/playlist?list=PLf-O3X2-mxDmXQU-mJVgeaSL7Rtejvv0S",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": null
+                    },
+                    {
+                      "Description": "Descomplicando o Kubernetes",
+                      "Link": "https://www.linuxtips.io/product-page/descomplicando-o-kubernetes",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": null
+                    },
+                    {
+                      "Description": "Kubernetes: Pods, Services e ConfigMaps",
+                      "Link": "https://www.alura.com.br/curso-online-kubernetes-pods-services-configmap",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": null
+                    },
+                    {
+                      "Description": "Kubernetes: Deployments, Volumes e Escalabilidade",
+                      "Link": "https://www.alura.com.br/curso-online-kubernetes-deployments-volumes-escalabilidade",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": null
+                    },
+                    {
+                      "Description": "Kubernetes - Tudo sobre orquestração de contêineres",
+                      "Link": "https://www.casadocodigo.com.br/products/livro-kubernetes",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": null
+                    },
+                    {
+                      "Description": "Kubernetes Certified Application Developer (CKAD) with Tests",
+                      "Link": "https://www.udemy.com/course/certified-kubernetes-application-developer/",
+                      "Type": "Course",
+                      "Language": "EN-US",
+                      "Order": null
+                    },
+                    {
+                      "Description": "Certified Kubernetes Administrator (CKA) with Practice Tests",
+                      "Link": "https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/",
+                      "Type": "Course",
+                      "Language": "EN-US",
+                      "Order": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Conhecer estratégias de versionamento e distribuição de aplicações",
+              "Level": 3,
+              "Learnables": [
+                {
+                  "Name": "Gerenciamento de versão",
+                  "Contents": [
+                    {
+                      "Description": "Existem várias maneiras de administrar/gerenciar o versionamento das versões de releases de sistemas. Esse assunto está intimamente ligado com o versionamento de códigos e com a cultura DevOps",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Blue/Green",
+                  "Contents": [
+                    {
+                      "Description": "BlueGreenDeployment",
+                      "Link": "https://martinfowler.com/bliki/BlueGreenDeployment.html",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Canary",
+                  "Contents": [
+                    {
+                      "Description": "Canary Release",
+                      "Link": "https://martinfowler.com/bliki/CanaryRelease.html",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Entender outros modelos de banco de dados existentes e sua melhor aplicabilidade",
+              "Level": 4,
+              "Learnables": [
+                {
+                  "Name": "Banco de documentos",
+                  "Contents": [
+                    {
+                      "Description": "Tipo de armazenamento de dados em estruturas de documentos JSON. É importante entender as motivações de uso e as principais ferramentas",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "NoSQL, DataScience",
+                      "Link": "https://www.alura.com.br/cursos-online-data-science/nosql#https://www.alura.com.br/cursos-online-data-science/nosql",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "Banco chave/valor",
+                  "Contents": [
+                    {
+                      "Description": "Tipo de armazenamento de dados em estruturas simples de chave e valor. É importante entender as motivações de uso e as principais ferramentas",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "NoSQL, DataScience",
+                      "Link": "https://www.alura.com.br/cursos-online-data-science/nosql",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "Banco de grafos",
+                  "Contents": [
+                    {
+                      "Description": "Tipo de armazenamento de dados em estruturas de grafos. É importante entender as motivações de uso e as principais ferramentas",
+                      "Link": null,
+                      "Type": null,
+                      "Language": null,
+                      "Order": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Manter-se atualizado e atento às novidades de mercado",
+              "Level": 4,
+              "Learnables": [
+                {
+                  "Name": "Ler documentações  da linguagem de programação e ferramentas que utiliza",
+                  "Contents": [
+                    {
+                      "Description": "As documentações, apesar de sua utilização mais comum como referência para dúvidas, é onde as informações são mais precisas e em nível mais detalhado",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Acompanhar eventos sobre novidades nas tecnologias que utiliza",
+                  "Contents": [
+                    {
+                      "Description": "Para todas as tecnologias haverão comunidades com eventos que visam fomentar e evoluir o conhecimento",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Acompanhar principais portais de tecnologia",
+                  "Contents": [
+                    {
+                      "Description": "Em geral as tecnologias de desenvolvimento possuem canais de maior relevância que disseminam conhecimentos de maior qualidade",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "InfoQ - Portal de Notícias de Tecnologia",
+                      "Link": "https://www.infoq.com/br/",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "Utilizar atualizações tecnológicas nos projetos em que atua",
+                  "Contents": [
+                    {
+                      "Description": "Os projetos tendem a manter um enrijecimento tecnológico que se torna nocivo com o passar do tempo. Existe uma linha saudável e subjetiva em que as atualizações (de dependências ou tecnologias) devem ser incentivadas e buscadas",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Aprimorar tecnicamente os projetos em que atua",
+              "Level": 4,
+              "Learnables": [
+                {
+                  "Name": "Apresentar POC's com tecnologias, métodos ou conceitos novos",
+                  "Contents": [
+                    {
+                      "Description": "Dentros dos projetos de atuação, é possível aplicar novos conhecimentos a partir da apresentação de provas de coneceito visando otimizações diversas",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Conduzir grupos de estudos para tratar de problemas técnicos do dia a dia",
+                  "Contents": [
+                    {
+                      "Description": "O aprendizado em grupos melhora a fixação de aprendizados além de distribuir o conhecimento para outros menos experientes",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Revisar voluntariamente códigos dos pares de trabalho",
+                  "Contents": [
+                    {
+                      "Description": "Para muitos rojetos, a revisão de código é prática comum e inclusive consta como processo formal durante o desenvolvimento, porém, exceto às obrigatoriedades, sugere-se que as correções ocorram de forma voluntária visando a distribuição orgânica de conhecimento",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Conhecer os conceitos de arquitetura de software e desenvolver funcionalidades que envolvem arquitetura de projetos",
+              "Level": 4,
+              "Learnables": [
+                {
+                  "Name": "Obter nível Escudeiro na trilha de arquitetura de software do mestre dos códigos",
+                  "Contents": [
+                    {
+                      "Description": "O mestre dos códigos é uma ferramenta para validar seu conhecimento em linguagens de programação",
+                      "Link": "https://mestredoscodigos.com.br/#https://mestredoscodigos.com.br/",
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Conceito de Single Sign On (SSO)",
+                  "Contents": [
+                    {
+                      "Description": "Com a utilização de múltiplos sistemas, SSO permite que um usuário se autentique uma única vez em um sistema especializado e, depois disso, utilize vários sistemas que confiem nessa autenticação",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Conceito de arquitetura orientada a eventos",
+                  "Contents": [
+                    {
+                      "Description": "Arquitetura baseada em eventos tem como foco o assincronismo na comunicação entre módulos e sistemas, o que permite baixo acoplamento e facilita escalonamento de soluções",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Arquitetura baseada em evento: o que, porque e quando",
+                      "Link": "https://www.youtube.com/watch?v=wZ49fWJsLvg",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "Observability (logging, tracing, monitoring)",
+                  "Contents": [
+                    {
+                      "Description": "Conceito aplicado ao universo de sistemas distribuídos em que o fluxo das informações, muitas vezes assíncrono, dificulta sua rastreabilidade e monitoramento. Neste assunto haverão muitas técnicas e conceitos relacionados",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Conceito de CQRS",
+                  "Contents": [
+                    {
+                      "Description": "CQRS é um acrônimo para Command Query Responsability Segregation, que é o nome de um padrão arquitetural que visa separar as responsabilidades de escrita e leitura de dados de uma aplicação",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "CQRS sem frescuras (Arch Month DB1)",
+                      "Link": "https://www.youtube.com/watch?v=k889DOujJ1k",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "EventSourcing",
+                  "Contents": [
+                    {
+                      "Description": "Trata-se de um padrão arquitetural que visa registrar o histórico de todos os eventos de um sistema distribuído",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Event Sourcing (Arch Month DB1)",
+                      "Link": "https://www.youtube.com/watch?v=asW1Bo-zZe4",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "Microsserviços",
+                  "Contents": [
+                    {
+                      "Description": "Trata-se de um estilo arquitetural que, de forma abrangente, divide uma solução em pequenos sistemas (serviços) fracamente acoplados, com responsabilidades restritas",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Micro serviços em debate (Arch Month DB1)",
+                      "Link": "https://www.youtube.com/watch?v=KiYMivM3-IU",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "MicroservicesIO - What are microservices ?",
+                      "Link": "https://microservices.io/",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 3
+                    }
+                  ]
+                },
+                {
+                  "Name": "Saga",
+                  "Contents": [
+                    {
+                      "Description": "Com o uso de microsserviços, podem ocorrer situações em que uma transação deverá ser distribuída entre serviços diferentes. O padrão Saga descreve uma maneira para garantir essa atomicidade",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Sagas, um pattern sagaz (Arch Month DB1)",
+                      "Link": "https://www.youtube.com/watch?v=wkAXEdgjvx4",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "Hexagonal architecture",
+                  "Contents": [
+                    {
+                      "Description": "Também chamdo de \"ports and adapters\", é um padrão de arquitetura que tem como objetivo manter um baixo acoplamento entre os componentes permitindo facilidade de substituição",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Arquitetura Hexagonal ? (Arch Month DB1)",
+                      "Link": "https://www.youtube.com/watch?v=veddUMcWZiM",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "Clean architecture",
+                  "Contents": [
+                    {
+                      "Description": "Existem muitas maneiras de estruturar/organizar os códigos de uma solução de software. Clean architecture é uma alternativa que apresenta conceitos sólidos na sua concepção",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "The Clean Architecture",
+                      "Link": "https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "Introdução ao contexto de Clean Architecture (Arch Month DB1)",
+                      "Link": "https://www.youtube.com/watch?v=g-UxSBRNgN0",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 3
+                    }
+                  ]
+                },
+                {
+                  "Name": "DDD - Domain Driven Design",
+                  "Contents": [
+                    {
+                      "Description": "Domain-Driven Design ou Projeto Orientado a Domínios é um padrão de modelagem de software. Os princípios relacionados à esse assunto estão presentes em inúmeras tecnologias e conceitos atuais",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "O que é arquitetura de software ?",
+                  "Contents": [
+                    {
+                      "Description": "O que é Arquitetura de Software (Arch Month DB1)",
+                      "Link": "https://www.youtube.com/watch?v=NDH_gTQ_PAI",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Software Architecture Guide",
+                      "Link": "https://martinfowler.com/architecture/",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "Quais são as diferenças entre Arquitetura e Design de Software ?",
+                      "Link": "https://eximia.co/quais-sao-as-diferencas-entre-arquitetura-e-design-de-software/",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 3
+                    },
+                    {
+                      "Description": "Continuous Architecture In Practice",
+                      "Link": "https://continuousarchitecture.com/",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 4
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "Compartilhamento de conhecimento",
+          "Objective": "Garantir que seu conhecimento seja compartilhado, propiciando uma grande troca de experiências e lições aprendidas",
+          "Objectives": [
+            {
+              "Name": "Compartilhar lições aprendidas de forma ativa e contínua",
+              "Level": 1,
+              "Learnables": [
+                {
+                  "Name": "Aprender e aplicar técnicas de retrospectiva",
+                  "Contents": [
+                    {
+                      "Description": "Fun Retrospectives",
+                      "Link": "http://funretrospectives.com/",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Criar documentação de post mortem e relatório causa raiz",
+                  "Contents": []
+                }
+              ]
+            },
+            {
+              "Name": "Promover o compartilhamento de conhecimento",
+              "Level": 1,
+              "Learnables": [
+                {
+                  "Name": "Criar e manter documentação dos projetos em que atua (ex: wiki, README, vídeos)",
+                  "Contents": [
+                    {
+                      "Description": "A documentação dos projetos deve ser criada e atualizada constantemente visando facilitar a entrada de novos colaboradores e a obtenção de informações de trabalho. Tenha a iniciativa de fomentar esse assunto",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Conhecer técnicas de comunicação assertiva",
+                  "Contents": [
+                    {
+                      "Description": "Comunicação: Como se expressar bem e ser compreendido",
+                      "Link": "https://cursos.alura.com.br/course/comunicacao",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Comunicação não violenta: Consciência para agir",
+                      "Link": "https://cursos.alura.com.br/course/comunicacao-nao-violenta",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "Destruir ilhas de conhecimento ao remover dependências de pessoas nos projetos em que atua",
+                  "Contents": [
+                    {
+                      "Description": "É comum a centralização de conhecimento em pessoas específicas pelos mais diversos motivos. Essa ocorrência pode gerar alta dependência e, por isso, alto risco. É esperado que esta centralização seja detectada e a distribuição do conhecimento e responsabilidades seja feita o mais rápido possível",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Gestão Ágil: Liderando a mudança em um ambiente de agilidade",
+                      "Link": "https://cursos.alura.com.br/course/gestao-agil",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "PMBOK na prática parte 1: Uma introdução geral",
+                      "Link": "https://www.alura.com.br/curso-online-pmbok-na-pratica",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Entender suas limitações, pedir ajuda e estar aberto a feedbacks",
+              "Level": 1,
+              "Learnables": [
+                {
+                  "Name": "Conhecer técnicas de receber feedbacks",
+                  "Contents": [
+                    {
+                      "Description": "Feedback: a arte de orientar e ser orientado com sentido",
+                      "Link": "https://www.alura.com.br/curso-online-feedback",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Participar do programa de mentoria como \"mentorado\"",
+                  "Contents": [
+                    {
+                      "Description": "O programa de mentoria da DB1 permite a formação de duplas para repasse de conhecimento",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Conhecer ferramentas que aprimorem seu autoconhecimento",
+                  "Contents": []
+                }
+              ]
+            },
+            {
+              "Name": "Conhecer e aplicar técnicas de colaboração",
+              "Level": 2,
+              "Learnables": [
+                {
+                  "Name": "Pair programming",
+                  "Contents": [
+                    {
+                      "Description": "eXtreme Programming",
+                      "Link": "https://www.casadocodigo.com.br/products/livro-xp-extreme-programming",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "A programação em par é uma técnica que visa o trabalho simultâneo de duas pessoas em uma mesma implementação. Há o benefício do aumento do foco e baixa distração",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Code review",
+                  "Contents": [
+                    {
+                      "Description": "A revisão de código é uma técnica que uma implementação é verificada/revisada pelos pares de trabalho antes da entrega efetiva da mesma. Em times heterogêneos em senioridade, é imprescindível a aplicação dessa técnica visando a distribuição de conhecimento",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Lightning Talk - Tips to improve your code review",
+                      "Link": "https://www.youtube.com/watch?v=m1dRhUc-8O4",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "Mob programming",
+                  "Contents": [
+                    {
+                      "Description": "Técnica de programação em que todos do time trabalham ao mesmo tempo na mesma demanda. Visa aumentar a produtividade e adiantar a detecção de erros",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Elaborar documentação utilizando ferramentas de documentação como código",
+              "Level": 2,
+              "Learnables": [
+                {
+                  "Name": "Swagger",
+                  "Contents": [
+                    {
+                      "Description": "Trata-se de uma maneira de descrever serviços REST que, em conjunto com ferramentaria opensource, facilita a documentação e testabilidade de tais serviços",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "JSONAPI",
+                  "Contents": [
+                    {
+                      "Description": "A documentação de serviços REST é extremamente necessária dada sua característica de integração de clientes externos, muitas vezes desconhecidos. JSONAPI é uma maneira de fornecer uma documentação em modelo JSON de serviços REST",
+                      "Link": "https://jsonapi.org/",
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Javadoc",
+                  "Contents": [
+                    {
+                      "Description": "Na plataforma Java, é possível a geração de documentação de códigos a partir de marcações (como comentários) específicos. Algumas outras linguagens oferecem recursos semelhantes",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Disseminar conhecimento além do time em que atua",
+              "Level": 3,
+              "Learnables": [
+                {
+                  "Name": "Conhecer metodologias de mentoria e/ou coaching",
+                  "Contents": []
+                },
+                {
+                  "Name": "Mentorar colegas no programa de mentoria da empresa",
+                  "Contents": []
+                },
+                {
+                  "Name": "Melhorar habilidades de apresentações em público",
+                  "Contents": [
+                    {
+                      "Description": "Apresentar lightning talks*** discorrer aqui",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Engajar o time em objetivos específicos como manutenção da documentação, melhoria da qualidade do código, etc.",
+              "Level": 3,
+              "Learnables": [
+                {
+                  "Name": "Ter conhecimento aprofundado de técnicas de comunicação assertiva",
+                  "Contents": [
+                    {
+                      "Description": "Liderança de Alto Nível",
+                      "Link": "https://www.amazon.com.br/Lideran%C3%A7a-Alto-N%C3%ADvel-Organiza%C3%A7%C3%B5es-Desempenho/dp/8577809366",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Ter conhecimento aprofundado sobre diferentes tipos de personalidades para engajar corretamente o time",
+                  "Contents": [
+                    {
+                      "Description": "Realizar capacitação do eneagrama. Verificar junto ao setor de evolução no departamento de gestão de pessoas sobre parceria com empresas ministrantes desta capacitação",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Reconhecer e apoiar a evolução dos membros do time de forma efetiva e constante",
+              "Level": 3,
+              "Learnables": [
+                {
+                  "Name": "Conhecer técnicas de dar feedback",
+                  "Contents": [
+                    {
+                      "Description": "Sua melhor gestão",
+                      "Link": "https://www.instagram.com/suamelhorgestao/",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Aprender sobre kudo cards",
+                  "Contents": [
+                    {
+                      "Description": "Técnica relacionada ao management 3.0 visa o reconhecimento de atitudes positivas dentro de um time",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Disseminar conhecimento além da empresa",
+              "Level": 4,
+              "Learnables": [
+                {
+                  "Name": "Produzir conteúdo (post no blog db1, e-book, treinamento etc...)",
+                  "Contents": []
+                },
+                {
+                  "Name": "Participar de eventos técnicos (podcast, lives)",
+                  "Contents": []
+                },
+                {
+                  "Name": "Palestrar em eventos ou meetups fora da empresa",
+                  "Contents": []
+                },
+                {
+                  "Name": "Aprimorar técnicas de oratória",
+                  "Contents": [
+                    {
+                      "Description": "Oratória parte 1: Compartilhe ideias e histórias",
+                      "Link": "https://www.alura.com.br/curso-online-oratoria-compartilhe-ideias",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Oratória parte 2: Apresentações em público",
+                      "Link": "https://www.alura.com.br/curso-online-oratoria-apresentacoes-em-publico",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "Contribuir em projetos open source",
+                  "Contents": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Desenvolvedor responsável",
+      "Tracks": [
+        {
+          "Name": "Estimativa e priorização",
+          "Objective": "Ensiná-lo a estimar e ordenar as entregas de maneira responsável e assertiva, fazendo gestão de risco",
+          "Objectives": [
+            {
+              "Name": "Saber estimar utilizando técnicas que diminuam riscos",
+              "Level": 1,
+              "Learnables": [
+                {
+                  "Name": "Planning Poker",
+                  "Contents": []
+                },
+                {
+                  "Name": "PERT",
+                  "Contents": [
+                    {
+                      "Description": "Análise PERT em Projetos",
+                      "Link": "https://open.spotify.com/episode/5n6POIWJVGUo38jk3lokBF?si=y4ActjUVS-iJIHWbs-MyLA",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Calcular a duração de uma Atividade — PERT (Estimativa de Três Pontos)",
+                      "Link": "https://medium.com/@andreluis.arruda/calcular-a-dura%C3%A7%C3%A3o-de-uma-atividade-pert-estimativa-de-tr%C3%AAs-pontos-6cb35a09a1b3",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "T-SHIRT",
+                  "Contents": []
+                }
+              ]
+            },
+            {
+              "Name": "Conhecer técnicas para representar o propósito de cada tarefa entendendo como ela ajuda o cliente dentro de suas necessidades",
+              "Level": 1,
+              "Learnables": [
+                {
+                  "Name": "Conhecer sobre histórias de usuário (user stories)",
+                  "Contents": [
+                    {
+                      "Description": "Desmistificando histórias de usuário",
+                      "Link": "https://youtu.be/1HaxWDfcRpI",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Estória de usuário. Você saberia contar?",
+                      "Link": "https://www.culturaagil.com.br/estoria-de-usuario-voce-saberia-contar/",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "Conhecer métodos ágeis",
+                  "Contents": [
+                    {
+                      "Description": "Métodos Ágeis",
+                      "Link": "https://www.alura.com.br/cursos-online-inovacao-gestao/agilidade",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Saber identificar e mapear pontos de risco que podem impactar nas estimativas",
+              "Level": 2,
+              "Learnables": [
+                {
+                  "Name": "Aprender e aplicar o conceito de DoR",
+                  "Contents": []
+                }
+              ]
+            },
+            {
+              "Name": "Aprender sobre técnicas de priorização de tarefas",
+              "Level": 3,
+              "Learnables": [
+                {
+                  "Name": "Método MoSCoW",
+                  "Contents": []
+                },
+                {
+                  "Name": "Método RICE",
+                  "Contents": []
+                },
+                {
+                  "Name": "Gestão do tempo",
+                  "Contents": [
+                    {
+                      "Description": "Submeter-se ao programa de mentoria da DB1 sobre gerenciamento de tempo",
+                      "Link": null,
+                      "Type": "Tip",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Aprender a quebrar uma demanda em atividades menores de modo a aumentar a assertividade da estimativa",
+              "Level": 3,
+              "Learnables": [
+                {
+                  "Name": "Aprender sobre técnicas de refinamento",
+                  "Contents": []
+                },
+                {
+                  "Name": "Aprender sobre elaboração de soluções técnica",
+                  "Contents": [
+                    {
+                      "Description": "C4 model",
+                      "Link": null,
+                      "Type": null,
+                      "Language": null,
+                      "Order": 0
+                    },
+                    {
+                      "Description": "mais materiais aqui",
+                      "Link": null,
+                      "Type": null,
+                      "Language": null,
+                      "Order": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "Acompanhamento de indicadores",
+          "Objective": "Aprender a monitorar a saúde do projeto e ser relevante na construção dos objetivos estratégicos",
+          "Objectives": [
+            {
+              "Name": "Conhecer indicadores e metas do projeto em que atua",
+              "Level": 1,
+              "Learnables": [
+                {
+                  "Name": "Entender os objetivos e métodos de aferição dos indicadores do projeto",
+                  "Contents": []
+                },
+                {
+                  "Name": "Conhecer metodologia de OKR",
+                  "Contents": [
+                    {
+                      "Description": "Material interno DB1",
+                      "Link": "https://db1global.sharepoint.com/:f:/s/intranet/EkwuFDwNROlJvy0ikplJe-YB-IcHNyfiHIFM7Qk1pbT-vg?e=Lfmntf",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Como definir os Resultados Chave | OKR",
+                      "Link": "https://open.spotify.com/episode/7zsEQHPlvbEzJmE8K6BuQ3?si=f336b213abb84067",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "COMO UTILIZAR OKR PARA FAZER O SEU PROJETO CRESCER | Podcast Seja Ágil",
+                      "Link": "https://open.spotify.com/episode/54YRc0rPFrCDKrfJk4X10l?si=4a75c1e84ec14cef",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 3
+                    },
+                    {
+                      "Description": "Introdução às OKRs",
+                      "Link": "https://hr-rocks-academy.teachable.com/p/curso-de-introducao-a-okrs",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 4
+                    },
+                    {
+                      "Description": "Aprenda OKR",
+                      "Link": "https://felipecastro.com/pt-br/okr/",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 5
+                    }
+                  ]
+                },
+                {
+                  "Name": "Conhecer OKRs do projeto em que atua",
+                  "Contents": []
+                }
+              ]
+            },
+            {
+              "Name": "Participar ativamente dos objetivos estratégicos do projeto em que atua",
+              "Level": 3,
+              "Learnables": [
+                {
+                  "Name": "Propor e/ou ser dono de um KR técnico",
+                  "Contents": []
+                },
+                {
+                  "Name": "Conhecer e contribuir para os objetivos de longo prazo do projeto em que atua",
+                  "Contents": []
+                }
+              ]
+            },
+            {
+              "Name": "Garantir bom desempenho de indicadores do projeto em que atua",
+              "Level": 4,
+              "Learnables": [
+                {
+                  "Name": "Acompanhar periodicamente os indicadores do projeto em que atua",
+                  "Contents": []
+                },
+                {
+                  "Name": "Criar planos de ação para indicadores que apontam tendência à baixo desempenho",
+                  "Contents": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "Negociação",
+          "Objective": "Saber como negociar seus recursos (prazo, esforço, etc...)  no projeto",
+          "Objectives": [
+            {
+              "Name": "Aprender o Código de de conduta do programador",
+              "Level": 1,
+              "Learnables": []
+            },
+            {
+              "Name": "Conhecer e aplicar técnicas de negociação",
+              "Level": 2,
+              "Learnables": [
+                {
+                  "Name": "Aprender técnicas de negociação",
+                  "Contents": [
+                    {
+                      "Description": "Negocie qualquer coisa com qualquer pessoa",
+                      "Link": "https://eduardoferraz.com/livros/negocie/",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Negociação parte 1: Práticas Essenciais",
+                      "Link": "https://cursos.alura.com.br/course/negociacao-praticas-essenciais",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "Negociação no dia a dia",
+                      "Link": "https://www.alura.com.br/artigos/negociacao-no-dia-a-dia",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 3
+                    },
+                    {
+                      "Description": "Gerenciamento de conflitos: Técnicas fundamentais",
+                      "Link": "https://cursos.alura.com.br/course/gestao-de-conflitos",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 4
+                    },
+                    {
+                      "Description": "Negociação parte 2: Técnicas Avançadas",
+                      "Link": "https://cursos.alura.com.br/course/negociacao-avancada",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 5
+                    }
+                  ]
+                },
+                {
+                  "Name": "Aprender técnicas de planejamento de reuniões",
+                  "Contents": [
+                    {
+                      "Description": "Lightning talk - TORNAR SEUS SLIDES MAIS ATRAENTES",
+                      "Link": "https://www.youtube.com/watch?v=mw6G7GOqaw0",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "Propriedade de produto",
+          "Objective": "Transformar o desenvolvedor em muito mais do que um codificador de requisitos, alguém que fará a diferença no negócio do cliente",
+          "Objectives": [
+            {
+              "Name": "Entender o conceito de pronto do projeto em que atua e garantir que o código entregue esteja aderente a ele",
+              "Level": 1,
+              "Learnables": [
+                {
+                  "Name": "Entender o conceito de pronto do projeto em que atua (DoD)",
+                  "Contents": []
+                },
+                {
+                  "Name": "Levar a demanda que está envolvido até produção, cuidando de cada etapa do processo mesmo que não seja o responsável por ela",
+                  "Contents": []
+                }
+              ]
+            },
+            {
+              "Name": "Entender e modelar as soluções para os problemas do cliente",
+              "Level": 2,
+              "Learnables": [
+                {
+                  "Name": "Design Thinking",
+                  "Contents": [
+                    {
+                      "Description": "Design thinking - tudo o que você precisa saber",
+                      "Link": "https://open.spotify.com/episode/6hokwjmpLwEUVnaJnJEazE?si=487884b881fa4361",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "MVP",
+                  "Contents": [
+                    {
+                      "Description": "Direto ao ponto - Criando produtos de forma enxuta",
+                      "Link": "https://www.casadocodigo.com.br/products/livro-direto-ao-ponto",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "ThoughtWorks presents: Lean Inception",
+                      "Link": "https://www.youtube.com/watch?v=Zw4vlMaWU78",
+                      "Type": "Watch",
+                      "Language": "EN-US",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "Facilitação",
+                  "Contents": [
+                    {
+                      "Description": "Conceitos básicos e métodos",
+                      "Link": "https://www.figma.com/proto/BOSIEpGJW1qul9fsC3DIA7/[MENTORIA]-FACILITAÇÃO?page-id=0%3A1&node-id=2%3A121&viewport=-4820%2C345%2C0.25&scaling=contain&starting-point-node-id=2%3A121",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Skills e recrutamento",
+                      "Link": "https://www.figma.com/proto/OoemeOgDlu1Ubh3wr8FanH/[MENTORIA]-FACILITAÇÃO-2?page-id=0%3A1&node-id=2%3A121&viewport=-11263%2C-187%2C0.25&scaling=contain&starting-point-node-id=2%3A121",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    }
+                  ]
+                },
+                {
+                  "Name": "Conceitos básicos de usabilidade, design de experiencia e design de interface",
+                  "Contents": [
+                    {
+                      "Description": "O que são Grids",
+                      "Link": "https://www.youtube.com/watch?app=desktop&v=IVMC7rZ4IGE&feature=youtu.be",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Usabilidade",
+                      "Link": "https://www.youtube.com/playlist?app=desktop&list=PLx_6W4OtI_rkeSc_2RepxfmnJ3ihAujKr",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "Conceitos de Acessibilidade",
+                      "Link": "https://youtu.be/kbW4T9Nr8-w",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 3
+                    },
+                    {
+                      "Description": "Micro interações",
+                      "Link": "https://www.youtube.com/watch?v=3i0pHJt1COA",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 4
+                    },
+                    {
+                      "Description": "Heuristicas de nielsen",
+                      "Link": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 5
+                    },
+                    {
+                      "Description": "Space, Grids, and Layouts",
+                      "Link": "https://www.designsystems.com/space-grids-and-layouts/",
+                      "Type": "Read",
+                      "Language": "EN-US",
+                      "Order": 6
+                    },
+                    {
+                      "Description": "UX Design Patterns: Navegação e Informação",
+                      "Link": "https://www.alura.com.br/curso-online-ux-design-patterns-navegacao-informacao",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 7
+                    },
+                    {
+                      "Description": "O que é UX",
+                      "Link": "https://www.youtube.com/playlist?app=desktop&list=PLx_6W4OtI_rnc1dAoiym-dixHcL5VIJ70",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 8
+                    },
+                    {
+                      "Description": "Prototipaçao em baixa (ideias no papel)",
+                      "Link": "https://www.youtube.com/watch?app=desktop&v=_xDUZSuU18A&feature=youtu.be",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 9
+                    },
+                    {
+                      "Description": "Os entregáveis de UI Design",
+                      "Link": "https://www.youtube.com/watch?v=FBzI07BVoDU",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 10
+                    },
+                    {
+                      "Description": "Acessibilidade",
+                      "Link": "https://www.youtube.com/watch?v=SkPBbGXTPr8",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 11
+                    },
+                    {
+                      "Description": "WCAG Descomplicada",
+                      "Link": "https://www.youtube.com/watch?v=J_w_8bf0Qac",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 12
+                    }
+                  ]
+                },
+                {
+                  "Name": "Testes de usabilidade",
+                  "Contents": [
+                    {
+                      "Description": "Teste de usabilidade parte 1: Seu produto é fácil de usar?",
+                      "Link": "https://www.alura.com.br/curso-online-teste-de-usabilidade",
+                      "Type": "Course",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Implementação de eventos para métricas de usuário",
+                  "Contents": [
+                    {
+                      "Description": "Firebase Analytics",
+                      "Link": "https://firebase.google.com/docs/analytics?hl=pt-br",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "UX Metrics",
+                      "Link": "https://www.youtube.com/watch?app=desktop&v=1sT4T19OX6Q&feature=youtu.be",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "Tag manager for beginners",
+                      "Link": "https://www.youtube.com/watch?v=1dwk_erXAko",
+                      "Type": "Watch",
+                      "Language": "EN-US",
+                      "Order": 3
+                    }
+                  ]
+                },
+                {
+                  "Name": "Ferramentas",
+                  "Contents": [
+                    {
+                      "Description": "Figma para devs",
+                      "Link": "https://www.youtube.com/watch?v=KRCfX25yFf4",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Zeplin",
+                      "Link": "https://www.youtube.com/watch?v=x1RPNx8Jsp4",
+                      "Type": "Watch",
+                      "Language": "EN-US",
+                      "Order": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Entender do produto que desenvolve, sua importância no mercado e estar apto a contribuir com sugestões inteligentes",
+              "Level": 3,
+              "Learnables": [
+                {
+                  "Name": "Conhecer segmento de negócio do projeto em que atua",
+                  "Contents": []
+                },
+                {
+                  "Name": "Entender o papel do cliente no cenário em que ele está inserido",
+                  "Contents": [
+                    {
+                      "Description": "Discorrer em \"qual o papel da Treetech na indústria de geração e distribuição de energia?\"",
+                      "Link": null,
+                      "Type": null,
+                      "Language": null,
+                      "Order": 0
+                    }
+                  ]
+                },
+                {
+                  "Name": "Entender os objetivos futuros do produto no mercado",
+                  "Contents": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
