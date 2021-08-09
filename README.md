@@ -66,7 +66,7 @@ Ou `Conteúdo`, é um conteúdo previamente selecionado (curado) por colaborador
 
 ### Passo a passo
 1. Clone este repositório
-2. Edite o arquivo `[centroTreinamento.json](Assets/Result/centroTreinamento.json)` com novos materiais ou estrutura
+2. Edite o arquivo [centroTreinamento.json](Assets/Result/centroTreinamento.json) com novos materiais ou estrutura
 3. Faça o commit, push e abra um pull request contendo a edição
    1. Neste PR, escreva um breve resumo do que está sendo submetido
    2. Toda interação/comunicação será feita por meio do pull request
