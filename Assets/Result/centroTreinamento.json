@@ -1,11 +1,11 @@
 {
-  "Skills": [
+  "Competences": [
     {
       "Name": "Codificador mestre",
       "Tracks": [
         {
           "Name": "Excelência de código",
-          "Objective": "Transformá-lo em um excelente codificador, capaz de criar boas soluções técnicas, utilizando sabiamente os recursos a sua disposição",
+          "Goal": "Transformá-lo em um excelente codificador, capaz de criar boas soluções técnicas, utilizando sabiamente os recursos a sua disposição",
           "Objectives": [
             {
               "Name": "Desenvolver código legível, através de boas práticas de programação e padrões de qualidade, utilizando ferramentas de análise estática de código como apoio",
@@ -728,7 +728,7 @@
         },
         {
           "Name": "Desenvolvimento seguro",
-          "Objective": "Ensiná-lo como identificar problemas de segurança e proteger aplicações, eliminando suas vulnerabilidades",
+          "Goal": "Ensiná-lo como identificar problemas de segurança e proteger aplicações, eliminando suas vulnerabilidades",
           "Objectives": [
             {
               "Name": "Conhecer as principais organizações que regem segurança em desenvolvimento de software e as principais vulnerabilidades catalogadas por elas",
@@ -974,7 +974,7 @@
         },
         {
           "Name": "Testabilidade",
-          "Objective": "Conhecer os tipos de testes existentes e como implementá-los com excelência, aplicando a técnica adequada a cada cenário.",
+          "Goal": "Conhecer os tipos de testes existentes e como implementá-los com excelência, aplicando a técnica adequada a cada cenário.",
           "Objectives": [
             {
               "Name": "Conhecer os tipos de testes automatizados existentes e entender os conceitos de mocks e stubs",
@@ -1184,7 +1184,7 @@
       "Tracks": [
         {
           "Name": "Referência técnica",
-          "Objective": "Te levar ao próximo nível, conhecendo mais conceitos/técnicas e ferramentas para resolver problemas cada vez mais complexos",
+          "Goal": "Te levar ao próximo nível, conhecendo mais conceitos/técnicas e ferramentas para resolver problemas cada vez mais complexos",
           "Objectives": [
             {
               "Name": "Conhecer banco de dados relacionais, sendo capaz de realizar operações de escrita e leitura",
@@ -2221,7 +2221,7 @@
         },
         {
           "Name": "Compartilhamento de conhecimento",
-          "Objective": "Garantir que seu conhecimento seja compartilhado, propiciando uma grande troca de experiências e lições aprendidas",
+          "Goal": "Garantir que seu conhecimento seja compartilhado, propiciando uma grande troca de experiências e lições aprendidas",
           "Objectives": [
             {
               "Name": "Compartilhar lições aprendidas de forma ativa e contínua",
@@ -2576,7 +2576,7 @@
       "Tracks": [
         {
           "Name": "Estimativa e priorização",
-          "Objective": "Ensiná-lo a estimar e ordenar as entregas de maneira responsável e assertiva, fazendo gestão de risco",
+          "Goal": "Ensiná-lo a estimar e ordenar as entregas de maneira responsável e assertiva, fazendo gestão de risco",
           "Objectives": [
             {
               "Name": "Saber estimar utilizando técnicas que diminuam riscos",
@@ -2717,7 +2717,7 @@
         },
         {
           "Name": "Acompanhamento de indicadores",
-          "Objective": "Aprender a monitorar a saúde do projeto e ser relevante na construção dos objetivos estratégicos",
+          "Goal": "Aprender a monitorar a saúde do projeto e ser relevante na construção dos objetivos estratégicos",
           "Objectives": [
             {
               "Name": "Conhecer indicadores e metas do projeto em que atua",
@@ -2805,7 +2805,7 @@
         },
         {
           "Name": "Negociação",
-          "Objective": "Saber como negociar seus recursos (prazo, esforço, etc...)  no projeto",
+          "Goal": "Saber como negociar seus recursos (prazo, esforço, etc...)  no projeto",
           "Objectives": [
             {
               "Name": "Aprender o Código de de conduta do programador",
@@ -2874,7 +2874,7 @@
         },
         {
           "Name": "Propriedade de produto",
-          "Objective": "Transformar o desenvolvedor em muito mais do que um codificador de requisitos, alguém que fará a diferença no negócio do cliente",
+          "Goal": "Transformar o desenvolvedor em muito mais do que um codificador de requisitos, alguém que fará a diferença no negócio do cliente",
           "Objectives": [
             {
               "Name": "Entender o conceito de pronto do projeto em que atua e garantir que o código entregue esteja aderente a ele",

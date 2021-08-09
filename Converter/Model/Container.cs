@@ -1,21 +1,23 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using JetBrains.Annotations;
 using static System.Environment;
 
 namespace Converter.Model
 {
+    [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
     public class Container
     {
-        public IEnumerable<Skill> Skills { get; set; }
+        public IEnumerable<Competence> Competences { get; set; }
 
-        public static Container Of(IEnumerable<Skill> skills)
+        public static Container Of(IEnumerable<Competence> competences)
         {
-            return new Container { Skills = skills };
+            return new Container { Competences = competences };
         }
 
         public string GetMarkdownSection()
         {
-            return string.Join(NewLine, Skills.Select(s => s.GetMarkdownSection()));
+            return string.Join(NewLine, Competences.Select(s => s.GetMarkdownSection()));
         }
     }
 }

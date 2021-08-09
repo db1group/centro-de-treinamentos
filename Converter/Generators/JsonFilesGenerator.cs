@@ -19,7 +19,7 @@ namespace Converter.Generators
         private string GetJsonContent(string databaseFileName)
         {
             using var context = new Database(databaseFileName);
-            return JsonSerializer.Serialize(Container.Of(context.Set<Skill>()), _jsonSerializerOptions);
+            return JsonSerializer.Serialize(Container.Of(context.Set<Competence>()), _jsonSerializerOptions);
         }
 
         private static void WriteJsonToFile(string fileName, string content)

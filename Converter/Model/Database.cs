@@ -19,7 +19,7 @@ namespace Converter.Model
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            MapSkill(modelBuilder);
+            MapCompetence(modelBuilder);
             MapTrack(modelBuilder);
             MapObjective(modelBuilder);
             MapLearnable(modelBuilder);
@@ -28,23 +28,22 @@ namespace Converter.Model
 
         private static void MapContent(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Content>().ToTable("Material");
+            modelBuilder.Entity<Content>().ToTable("Content");
 
-            modelBuilder.Entity<Content>().Property(x => x.Learnable).HasColumnName("Aprendivel");
-            modelBuilder.Entity<Content>().Property(x => x.Description).HasColumnName("Descricao");
-            modelBuilder.Entity<Content>().Property(x => x.Type).HasColumnName("Tipo");
-            modelBuilder.Entity<Content>().Property(x => x.Language).HasColumnName("Idioma");
-            modelBuilder.Entity<Content>().Property(x => x.Order).HasColumnName("Ordem");
-            modelBuilder.Entity<Content>().Property(x => x.Link).HasColumnName("Link")
-                .HasConversion(x => x, x => x.Trim('#'));
+            modelBuilder.Entity<Content>().Property(x => x.Learnable);
+            modelBuilder.Entity<Content>().Property(x => x.Description);
+            modelBuilder.Entity<Content>().Property(x => x.Type);
+            modelBuilder.Entity<Content>().Property(x => x.Language);
+            modelBuilder.Entity<Content>().Property(x => x.Order);
+            modelBuilder.Entity<Content>().Property(x => x.Link).HasConversion(x => x, x => x.Trim('#'));
         }
 
         private static void MapLearnable(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Learnable>().Property(x => x.Objective).HasColumnName("Objetivo");
-            modelBuilder.Entity<Learnable>().Property(x => x.Name).HasColumnName("Nome");
+            modelBuilder.Entity<Learnable>().Property(x => x.Objective);
+            modelBuilder.Entity<Learnable>().Property(x => x.Name);
             modelBuilder.Entity<Learnable>()
-                .ToTable("Aprendivel")
+                .ToTable("Learnable")
                 .HasMany(c => c.Contents)
                 .WithOne()
                 .HasForeignKey(t => t.Learnable);
@@ -52,11 +51,11 @@ namespace Converter.Model
 
         private static void MapObjective(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Objective>().Property(x => x.Track).HasColumnName("Trilha");
-            modelBuilder.Entity<Objective>().Property(x => x.Name).HasColumnName("Nome");
-            modelBuilder.Entity<Objective>().Property(x => x.Level).HasColumnName("Nivel");
+            modelBuilder.Entity<Objective>().Property(x => x.Track);
+            modelBuilder.Entity<Objective>().Property(x => x.Name);
+            modelBuilder.Entity<Objective>().Property(x => x.Level);
             modelBuilder.Entity<Objective>()
-                .ToTable("Objetivo")
+                .ToTable("Objective")
                 .HasMany(c => c.Learnables)
                 .WithOne()
                 .HasForeignKey(t => t.Objective);
@@ -64,23 +63,23 @@ namespace Converter.Model
 
         private static void MapTrack(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Track>().Property(x => x.Skill).HasColumnName("Competencia");
-            modelBuilder.Entity<Track>().Property(x => x.Name).HasColumnName("Nome");
-            modelBuilder.Entity<Track>().Property(x => x.Objective).HasColumnName("Objetivo");
-            modelBuilder.Entity<Track>().ToTable("Trilha")
+            modelBuilder.Entity<Track>().Property(x => x.Competence);
+            modelBuilder.Entity<Track>().Property(x => x.Name);
+            modelBuilder.Entity<Track>().Property(x => x.Goal);
+            modelBuilder.Entity<Track>().ToTable("Track")
                 .HasMany(c => c.Objectives)
                 .WithOne()
                 .HasForeignKey(t => t.Track);
         }
         
-        private static void MapSkill(ModelBuilder modelBuilder)
+        private static void MapCompetence(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Skill>().Property(x => x.Name).HasColumnName("Nome");
-            modelBuilder.Entity<Skill>()
-                .ToTable("Competencia")
+            modelBuilder.Entity<Competence>().Property(x => x.Name);
+            modelBuilder.Entity<Competence>()
+                .ToTable("Competence")
                 .HasMany(c => c.Tracks)
                 .WithOne()
-                .HasForeignKey(t => t.Skill);
+                .HasForeignKey(t => t.Competence);
         }
     }
 }

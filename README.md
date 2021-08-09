@@ -5,12 +5,16 @@ O *centro de treinamentos* é o caminho proposto pela DB1 para um colaborador se
 Um sistema de gestão de aprendizagem apresentará agrupamentos e conteúdos previamente selecionados a serem estudados pelos candidatos.
 Este é um guia que aponta o caminho de evolução e, a partir dele, os candidatos devem validar seus conhecimentos utilizando outras ferramentas.
 
-> Atualmente o programa contará com um foco em desenvolvedores de backend e ele é fortemente influenciado pelas tecnologias dos projetos em execução pela DB1.
+Mais informações podem ser obtidas [aqui](https://centrodetreinamentos.db1group.com/).
+
+> O conteúdo proposto foi discutido com desenvolvedores da DB1. Caso sinta falta de algum material, fique a vontade para contribuir conforme proposto a seguir.
 
 ## Como contribuir?
 A contribuição com a estrutura ou materiais do centro de treinamentos será feita pela submissão de pull requests à este repositório.
-O arquivo [centroTreinamento.json](Assets/Result/centroTreinamento.json) é a fonte dos dados e deverá ser editado na intenção de incluir/editar/remover conteúdos.
-O sistema de gestão de aprendizagem, atualmente, reflete essa estrutura de forma manual, isto é, o conteúdo será incluido/editado/removido com intervenção humana, logo, um pull request que "refatora" a estrutura de forma global como espaçamento ou ordenação dos atuais componentes será descartado.
+O arquivo [centroTreinamento.json](Assets/Result/centroTreinamento.json) é a fonte dos dados e deverá ser editado na intenção de incluir/editar/remover conteúdos. O pull request será analisado visando validar o material submetido antes do merge.
+
+### Dica 
+Em caso alterações grandes, submeta pull requests separados, tendo em vista a validação manual das suas alterações.
 
 ### Arquivo fonte de dados
 Neste repositório, há o arquivo [centroTreinamento.json](Assets/Result/centroTreinamento.json) que contém uma estrutura conforme a seguinte:

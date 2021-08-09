@@ -7,7 +7,7 @@ using static System.Environment;
 namespace Converter.Model
 {
     [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-    public class Skill
+    public class Competence
     {
         [JsonIgnore] public int Id { get; set; }
         public string Name { get; set; }

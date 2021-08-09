@@ -11,8 +11,8 @@ namespace Converter.Model
     {
         [JsonIgnore] public int Id { get; set; }
         public string Name { get; set; }
-        public string Objective { get; set; }
-        [JsonIgnore] public int Skill { get; set; }
+        public string Goal { get; set; }
+        [JsonIgnore] public int Competence { get; set; }
         public virtual IList<Objective> Objectives { get; set; }
 
         public string GetMarkdownSection()
