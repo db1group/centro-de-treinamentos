@@ -95,7 +95,7 @@ Conforme mencionado, o código está preparado para ler um arquivo feito em MS A
 - Arquivo [centroTreinamento.accdb](Assets/centroTreinamento.accdb)
 ### Outputs
 - Arquivo [centroTreinamento.json](Assets/Result/centroTreinamento.json) (contendo o banco de dados representado em JSON)
-- Arquivos `.md` com a representação do centro de treinamento
+- Arquivos `.md` com a representação do centro de treinamento. O material completo pode ser visto [aqui](Assets/Result)
 
 ## Próximos passos
 - Criação de trilhas para outras áreas
