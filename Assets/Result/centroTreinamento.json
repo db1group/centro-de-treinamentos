@@ -9,6 +9,8 @@
           "Objectives": [
             {
               "Name": "Desenvolver código legível, através de boas práticas de programação e padrões de qualidade, utilizando ferramentas de análise estática de código como apoio",
+              "NameTrimmed": "Desenvolver código le",
+              "ShortName": "Nível 1: Desenvolver código le",
               "Level": 1,
               "Learnables": [
                 {
@@ -197,6 +199,8 @@
             },
             {
               "Name": "Dominar fundamentos de programação",
+              "NameTrimmed": "Dominar fundamentos d",
+              "ShortName": "Nível 1: Dominar fundamentos d",
               "Level": 4,
               "Learnables": [
                 {
@@ -291,6 +295,8 @@
             },
             {
               "Name": "Conhecer o básico da sua linguagem de programação e desenvolver atividades de baixa complexidade com facilidade",
+              "NameTrimmed": "Conhecer o básico da ",
+              "ShortName": "Nível 1: Conhecer o básico da ",
               "Level": 1,
               "Learnables": [
                 {
@@ -356,6 +362,8 @@
             },
             {
               "Name": "Utilizar adequadamente as ferramentas de versionamento de código e as estratégias de branch de mercado",
+              "NameTrimmed": "Utilizar adequadament",
+              "ShortName": "Nível 1: Utilizar adequadament",
               "Level": 2,
               "Learnables": [
                 {
@@ -473,6 +481,8 @@
             },
             {
               "Name": "Desenvolver código com alto nível qualidade",
+              "NameTrimmed": "Desenvolver código co",
+              "ShortName": "Nível 1: Desenvolver código co",
               "Level": 2,
               "Learnables": [
                 {
@@ -578,6 +588,8 @@
             },
             {
               "Name": "Conhecer as principais funcionalidades da tecnologia em que atua, criando código que aproveite as facilidades que ela oferece",
+              "NameTrimmed": "Conhecer as principai",
+              "ShortName": "Nível 1: Conhecer as principai",
               "Level": 3,
               "Learnables": [
                 {
@@ -615,6 +627,8 @@
             },
             {
               "Name": "Dominar estratégias de performance e escalabilidade, criando códigos que atendam essas necessidades",
+              "NameTrimmed": "Dominar estratégias d",
+              "ShortName": "Nível 1: Dominar estratégias d",
               "Level": 4,
               "Learnables": [
                 {
@@ -732,6 +746,8 @@
           "Objectives": [
             {
               "Name": "Conhecer as principais organizações que regem segurança em desenvolvimento de software e as principais vulnerabilidades catalogadas por elas",
+              "NameTrimmed": "Conhecer as principai",
+              "ShortName": "Nível 1: Conhecer as principai",
               "Level": 1,
               "Learnables": [
                 {
@@ -766,6 +782,8 @@
             },
             {
               "Name": "Conhecer as leis e certificações que regem a segurança de dados",
+              "NameTrimmed": "Conhecer as leis e ce",
+              "ShortName": "Nível 1: Conhecer as leis e ce",
               "Level": 1,
               "Learnables": [
                 {
@@ -810,6 +828,8 @@
             },
             {
               "Name": "Proteger as aplicações que desenvolve com o uso de autenticação e autorização",
+              "NameTrimmed": "Proteger as aplicaçõe",
+              "ShortName": "Nível 1: Proteger as aplicaçõe",
               "Level": 2,
               "Learnables": [
                 {
@@ -863,6 +883,8 @@
             },
             {
               "Name": "Desenvolver software seguro, protegido contra os ataques mais comuns",
+              "NameTrimmed": "Desenvolver software ",
+              "ShortName": "Nível 1: Desenvolver software ",
               "Level": 3,
               "Learnables": [
                 {
@@ -900,6 +922,8 @@
             },
             {
               "Name": "Aprender como detectar vulnerabilidades em softwares",
+              "NameTrimmed": "Aprender como detecta",
+              "ShortName": "Nível 1: Aprender como detecta",
               "Level": 4,
               "Learnables": [
                 {
@@ -930,6 +954,8 @@
             },
             {
               "Name": "Aprender sobre critpografia e certificados digitais",
+              "NameTrimmed": "Aprender sobre critpo",
+              "ShortName": "Nível 1: Aprender sobre critpo",
               "Level": 2,
               "Learnables": [
                 {
@@ -978,6 +1004,8 @@
           "Objectives": [
             {
               "Name": "Conhecer os tipos de testes automatizados existentes e entender os conceitos de mocks e stubs",
+              "NameTrimmed": "Conhecer os tipos de ",
+              "ShortName": "Nível 1: Conhecer os tipos de ",
               "Level": 1,
               "Learnables": [
                 {
@@ -1079,6 +1107,8 @@
             },
             {
               "Name": "Conhecer boas práticas de implementação de testes automatizados",
+              "NameTrimmed": "Conhecer boas prática",
+              "ShortName": "Nível 1: Conhecer boas prática",
               "Level": 2,
               "Learnables": [
                 {
@@ -1121,6 +1151,8 @@
             },
             {
               "Name": "Implementar testes automatizados avançados",
+              "NameTrimmed": "Implementar testes au",
+              "ShortName": "Nível 1: Implementar testes au",
               "Level": 3,
               "Learnables": [
                 {
@@ -1188,6 +1220,8 @@
           "Objectives": [
             {
               "Name": "Conhecer banco de dados relacionais, sendo capaz de realizar operações de escrita e leitura",
+              "NameTrimmed": "Conhecer banco de dad",
+              "ShortName": "Nível 1: Conhecer banco de dad",
               "Level": 1,
               "Learnables": [
                 {
@@ -1266,6 +1300,8 @@
             },
             {
               "Name": "Conhecer técnicas avançadas de prototipação e desenvolvimento de frontends web",
+              "NameTrimmed": "Conhecer técnicas ava",
+              "ShortName": "Nível 1: Conhecer técnicas ava",
               "Level": 1,
               "Learnables": [
                 {
@@ -1320,6 +1356,8 @@
             },
             {
               "Name": "Conhecer sobre cultura DevOps",
+              "NameTrimmed": "Conhecer sobre cultur",
+              "ShortName": "Nível 1: Conhecer sobre cultur",
               "Level": 1,
               "Learnables": [
                 {
@@ -1395,6 +1433,8 @@
             },
             {
               "Name": "Aprender conceitos e tecnologias fora da rotina",
+              "NameTrimmed": "Aprender conceitos e ",
+              "ShortName": "Nível 1: Aprender conceitos e ",
               "Level": 1,
               "Learnables": [
                 {
@@ -1425,6 +1465,8 @@
             },
             {
               "Name": "Conhecer protocolos de comunicação mais comuns e como utilizá-los adequadamente",
+              "NameTrimmed": "Conhecer protocolos d",
+              "ShortName": "Nível 1: Conhecer protocolos d",
               "Level": 2,
               "Learnables": [
                 {
@@ -1531,6 +1573,8 @@
             },
             {
               "Name": "Conhecer recursos avançados de banco de dados relacionais",
+              "NameTrimmed": "Conhecer recursos ava",
+              "ShortName": "Nível 1: Conhecer recursos ava",
               "Level": 2,
               "Learnables": [
                 {
@@ -1611,6 +1655,8 @@
             },
             {
               "Name": "Conhecer o ambiente de execução e ecossistema envolvido de um aplicação para realizar pequenas manutenções",
+              "NameTrimmed": "Conhecer o ambiente d",
+              "ShortName": "Nível 1: Conhecer o ambiente d",
               "Level": 3,
               "Learnables": [
                 {
@@ -1784,6 +1830,8 @@
             },
             {
               "Name": "Conhecer estratégias de versionamento e distribuição de aplicações",
+              "NameTrimmed": "Conhecer estratégias ",
+              "ShortName": "Nível 1: Conhecer estratégias ",
               "Level": 3,
               "Learnables": [
                 {
@@ -1826,6 +1874,8 @@
             },
             {
               "Name": "Entender outros modelos de banco de dados existentes e sua melhor aplicabilidade",
+              "NameTrimmed": "Entender outros model",
+              "ShortName": "Nível 1: Entender outros model",
               "Level": 4,
               "Learnables": [
                 {
@@ -1882,6 +1932,8 @@
             },
             {
               "Name": "Manter-se atualizado e atento às novidades de mercado",
+              "NameTrimmed": "Manter-se atualizado ",
+              "ShortName": "Nível 1: Manter-se atualizado ",
               "Level": 4,
               "Learnables": [
                 {
@@ -1943,6 +1995,8 @@
             },
             {
               "Name": "Aprimorar tecnicamente os projetos em que atua",
+              "NameTrimmed": "Aprimorar tecnicament",
+              "ShortName": "Nível 1: Aprimorar tecnicament",
               "Level": 4,
               "Learnables": [
                 {
@@ -1985,6 +2039,8 @@
             },
             {
               "Name": "Conhecer os conceitos de arquitetura de software e desenvolver funcionalidades que envolvem arquitetura de projetos",
+              "NameTrimmed": "Conhecer os conceitos",
+              "ShortName": "Nível 1: Conhecer os conceitos",
               "Level": 4,
               "Learnables": [
                 {
@@ -2225,6 +2281,8 @@
           "Objectives": [
             {
               "Name": "Compartilhar lições aprendidas de forma ativa e contínua",
+              "NameTrimmed": "Compartilhar lições a",
+              "ShortName": "Nível 1: Compartilhar lições a",
               "Level": 1,
               "Learnables": [
                 {
@@ -2247,6 +2305,8 @@
             },
             {
               "Name": "Promover o compartilhamento de conhecimento",
+              "NameTrimmed": "Promover o compartilh",
+              "ShortName": "Nível 1: Promover o compartilh",
               "Level": 1,
               "Learnables": [
                 {
@@ -2310,6 +2370,8 @@
             },
             {
               "Name": "Entender suas limitações, pedir ajuda e estar aberto a feedbacks",
+              "NameTrimmed": "Entender suas limitaç",
+              "ShortName": "Nível 1: Entender suas limitaç",
               "Level": 1,
               "Learnables": [
                 {
@@ -2344,6 +2406,8 @@
             },
             {
               "Name": "Conhecer e aplicar técnicas de colaboração",
+              "NameTrimmed": "Conhecer e aplicar té",
+              "ShortName": "Nível 1: Conhecer e aplicar té",
               "Level": 2,
               "Learnables": [
                 {
@@ -2400,6 +2464,8 @@
             },
             {
               "Name": "Elaborar documentação utilizando ferramentas de documentação como código",
+              "NameTrimmed": "Elaborar documentação",
+              "ShortName": "Nível 1: Elaborar documentação",
               "Level": 2,
               "Learnables": [
                 {
@@ -2442,6 +2508,8 @@
             },
             {
               "Name": "Disseminar conhecimento além do time em que atua",
+              "NameTrimmed": "Disseminar conhecimen",
+              "ShortName": "Nível 1: Disseminar conhecimen",
               "Level": 3,
               "Learnables": [
                 {
@@ -2468,6 +2536,8 @@
             },
             {
               "Name": "Engajar o time em objetivos específicos como manutenção da documentação, melhoria da qualidade do código, etc.",
+              "NameTrimmed": "Engajar o time em obj",
+              "ShortName": "Nível 1: Engajar o time em obj",
               "Level": 3,
               "Learnables": [
                 {
@@ -2498,6 +2568,8 @@
             },
             {
               "Name": "Reconhecer e apoiar a evolução dos membros do time de forma efetiva e constante",
+              "NameTrimmed": "Reconhecer e apoiar a",
+              "ShortName": "Nível 1: Reconhecer e apoiar a",
               "Level": 3,
               "Learnables": [
                 {
@@ -2528,6 +2600,8 @@
             },
             {
               "Name": "Disseminar conhecimento além da empresa",
+              "NameTrimmed": "Disseminar conhecimen",
+              "ShortName": "Nível 1: Disseminar conhecimen",
               "Level": 4,
               "Learnables": [
                 {
@@ -2580,6 +2654,8 @@
           "Objectives": [
             {
               "Name": "Saber estimar utilizando técnicas que diminuam riscos",
+              "NameTrimmed": "Saber estimar utiliza",
+              "ShortName": "Nível 1: Saber estimar utiliza",
               "Level": 1,
               "Learnables": [
                 {
@@ -2613,6 +2689,8 @@
             },
             {
               "Name": "Conhecer técnicas para representar o propósito de cada tarefa entendendo como ela ajuda o cliente dentro de suas necessidades",
+              "NameTrimmed": "Conhecer técnicas par",
+              "ShortName": "Nível 1: Conhecer técnicas par",
               "Level": 1,
               "Learnables": [
                 {
@@ -2650,6 +2728,8 @@
             },
             {
               "Name": "Saber identificar e mapear pontos de risco que podem impactar nas estimativas",
+              "NameTrimmed": "Saber identificar e m",
+              "ShortName": "Nível 1: Saber identificar e m",
               "Level": 2,
               "Learnables": [
                 {
@@ -2660,6 +2740,8 @@
             },
             {
               "Name": "Aprender sobre técnicas de priorização de tarefas",
+              "NameTrimmed": "Aprender sobre técnic",
+              "ShortName": "Nível 1: Aprender sobre técnic",
               "Level": 3,
               "Learnables": [
                 {
@@ -2686,6 +2768,8 @@
             },
             {
               "Name": "Aprender a quebrar uma demanda em atividades menores de modo a aumentar a assertividade da estimativa",
+              "NameTrimmed": "Aprender a quebrar um",
+              "ShortName": "Nível 1: Aprender a quebrar um",
               "Level": 3,
               "Learnables": [
                 {
@@ -2721,6 +2805,8 @@
           "Objectives": [
             {
               "Name": "Conhecer indicadores e metas do projeto em que atua",
+              "NameTrimmed": "Conhecer indicadores ",
+              "ShortName": "Nível 1: Conhecer indicadores ",
               "Level": 1,
               "Learnables": [
                 {
@@ -2775,6 +2861,8 @@
             },
             {
               "Name": "Participar ativamente dos objetivos estratégicos do projeto em que atua",
+              "NameTrimmed": "Participar ativamente",
+              "ShortName": "Nível 1: Participar ativamente",
               "Level": 3,
               "Learnables": [
                 {
@@ -2789,6 +2877,8 @@
             },
             {
               "Name": "Garantir bom desempenho de indicadores do projeto em que atua",
+              "NameTrimmed": "Garantir bom desempen",
+              "ShortName": "Nível 1: Garantir bom desempen",
               "Level": 4,
               "Learnables": [
                 {
@@ -2809,11 +2899,15 @@
           "Objectives": [
             {
               "Name": "Aprender o Código de de conduta do programador",
+              "NameTrimmed": "Aprender o Código de ",
+              "ShortName": "Nível 1: Aprender o Código de ",
               "Level": 1,
               "Learnables": []
             },
             {
               "Name": "Conhecer e aplicar técnicas de negociação",
+              "NameTrimmed": "Conhecer e aplicar té",
+              "ShortName": "Nível 1: Conhecer e aplicar té",
               "Level": 2,
               "Learnables": [
                 {
@@ -2878,6 +2972,8 @@
           "Objectives": [
             {
               "Name": "Entender o conceito de pronto do projeto em que atua e garantir que o código entregue esteja aderente a ele",
+              "NameTrimmed": "Entender o conceito d",
+              "ShortName": "Nível 1: Entender o conceito d",
               "Level": 1,
               "Learnables": [
                 {
@@ -2892,6 +2988,8 @@
             },
             {
               "Name": "Entender e modelar as soluções para os problemas do cliente",
+              "NameTrimmed": "Entender e modelar as",
+              "ShortName": "Nível 1: Entender e modelar as",
               "Level": 2,
               "Learnables": [
                 {
@@ -3094,6 +3192,8 @@
             },
             {
               "Name": "Entender do produto que desenvolve, sua importância no mercado e estar apto a contribuir com sugestões inteligentes",
+              "NameTrimmed": "Entender do produto q",
+              "ShortName": "Nível 1: Entender do produto q",
               "Level": 3,
               "Learnables": [
                 {
