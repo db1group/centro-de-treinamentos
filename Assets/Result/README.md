@@ -322,14 +322,14 @@ Padrões de projeto](https://refactoring.guru/pt-br/design-patterns)
 ### Objetivo: Conhecer os conceitos de arquitetura de software e desenvolver funcionalidades que envolvem arquitetura de projetos (Nível 4)
 #### Obter nível Escudeiro na trilha de arquitetura de software do mestre dos códigos
 1. [[Dica] O mestre dos códigos é uma ferramenta para validar seu conhecimento em linguagens de programação](https://mestredoscodigos.com.br/#https://mestredoscodigos.com.br/)
-#### Conceito de Single Sign On (SSO)
+#### Single Sign On (SSO)
 1. [Dica] Com a utilização de múltiplos sistemas, SSO permite que um usuário se autentique uma única vez em um sistema especializado e, depois disso, utilize vários sistemas que confiem nessa autenticação
-#### Conceito de arquitetura orientada a eventos
+#### Arquitetura orientada a eventos
 1. [Dica] Arquitetura baseada em eventos tem como foco o assincronismo na comunicação entre módulos e sistemas, o que permite baixo acoplamento e facilita escalonamento de soluções
 1. [[Áudio/Vídeo] Arquitetura baseada em evento: o que, porque e quando](https://www.youtube.com/watch?v=wZ49fWJsLvg)
 #### Observability (logging, tracing, monitoring)
 1. [Dica] Conceito aplicado ao universo de sistemas distribuídos em que o fluxo das informações, muitas vezes assíncrono, dificulta sua rastreabilidade e monitoramento. Neste assunto haverão muitas técnicas e conceitos relacionados
-#### Conceito de CQRS
+#### CQRS
 1. [Dica] CQRS é um acrônimo para Command Query Responsability Segregation, que é o nome de um padrão arquitetural que visa separar as responsabilidades de escrita e leitura de dados de uma aplicação
 1. [[Áudio/Vídeo] CQRS sem frescuras (Arch Month DB1)](https://www.youtube.com/watch?v=k889DOujJ1k)
 #### EventSourcing

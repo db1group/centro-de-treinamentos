@@ -2056,7 +2056,7 @@
                   ]
                 },
                 {
-                  "Name": "Conceito de Single Sign On (SSO)",
+                  "Name": "Single Sign On (SSO)",
                   "Contents": [
                     {
                       "Description": "Com a utilização de múltiplos sistemas, SSO permite que um usuário se autentique uma única vez em um sistema especializado e, depois disso, utilize vários sistemas que confiem nessa autenticação",
@@ -2068,7 +2068,7 @@
                   ]
                 },
                 {
-                  "Name": "Conceito de arquitetura orientada a eventos",
+                  "Name": "Arquitetura orientada a eventos",
                   "Contents": [
                     {
                       "Description": "Arquitetura baseada em eventos tem como foco o assincronismo na comunicação entre módulos e sistemas, o que permite baixo acoplamento e facilita escalonamento de soluções",
@@ -2099,7 +2099,7 @@
                   ]
                 },
                 {
-                  "Name": "Conceito de CQRS",
+                  "Name": "CQRS",
                   "Contents": [
                     {
                       "Description": "CQRS é um acrônimo para Command Query Responsability Segregation, que é o nome de um padrão arquitetural que visa separar as responsabilidades de escrita e leitura de dados de uma aplicação",
