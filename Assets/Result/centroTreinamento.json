@@ -1050,7 +1050,7 @@
                       "Order": 2
                     },
                     {
-                      "Description": "Por que automatizar os testes ?",
+                      "Description": "Por que automatizar os testes?",
                       "Link": "https://www.youtube.com/watch?v=Bl7sV80y-UA",
                       "Type": "Watch",
                       "Language": "PT-BR",
@@ -1407,7 +1407,7 @@
                   "Name": "O que é DevOps",
                   "Contents": [
                     {
-                      "Description": "O que é DevOps ?",
+                      "Description": "O que é DevOps?",
                       "Link": "https://db1global-my.sharepoint.com/:p:/g/personal/cesar_sturion_db1_com_br/Ea5Jck4_bJVFhpPjJH2n0wwBkoi_1AZ2Z3O5TlxruA8g3Q?e=4%3AStMMdw&at=9",
                       "Type": "Read",
                       "Language": "PT-BR",
@@ -2154,7 +2154,7 @@
                       "Order": 2
                     },
                     {
-                      "Description": "MicroservicesIO - What are microservices ?",
+                      "Description": "MicroservicesIO - What are microservices?",
                       "Link": "https://microservices.io/",
                       "Type": "Read",
                       "Language": "EN-US",
@@ -2192,7 +2192,7 @@
                       "Order": 1
                     },
                     {
-                      "Description": "Arquitetura Hexagonal ? (Arch Month DB1)",
+                      "Description": "Arquitetura Hexagonal? (Arch Month DB1)",
                       "Link": "https://www.youtube.com/watch?v=veddUMcWZiM",
                       "Type": "Watch",
                       "Language": "PT-BR",
@@ -2239,7 +2239,7 @@
                   ]
                 },
                 {
-                  "Name": "O que é arquitetura de software ?",
+                  "Name": "O que é arquitetura de software",
                   "Contents": [
                     {
                       "Description": "O que é Arquitetura de Software (Arch Month DB1)",

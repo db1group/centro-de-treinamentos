@@ -165,7 +165,7 @@ Padrões de projeto](https://refactoring.guru/pt-br/design-patterns)
 #### Tipos de testes
 1. [Dica] Testar software, de forma automatizada ou manual, é uma grande área por si só. É essencial conhecer os tipos de testes existentes e conceitos relacionados
 1. [[Áudio/Vídeo] Lightning Talk: Introdução ao Contract Testing](https://www.youtube.com/watch?v=bvI5DKgFsQw)
-1. [[Áudio/Vídeo] Por que automatizar os testes ?](https://www.youtube.com/watch?v=Bl7sV80y-UA)
+1. [[Áudio/Vídeo] Por que automatizar os testes?](https://www.youtube.com/watch?v=Bl7sV80y-UA)
 #### AAA
 1. [Dica] Sigla para Arrange, Act e Assert (preparar, agir e afirmar), AAA é um padrão essencial para a escrita de testes automatizados
 #### Testes de unidade
@@ -223,7 +223,7 @@ Padrões de projeto](https://refactoring.guru/pt-br/design-patterns)
 1. [[Dica] Entrega contínua é uma prática no desenvolvimento de software que visa automatizar as entregas em ambiente de produção de forma facilitada e frequente](https://en.wikipedia.org/wiki/Continuous_deployment)
 #### O que é DevOps
 1. [Dica] A cultura DevOps agrupa muitos conceitos e práticas que visam facilitar e automatizar a entrega, eventualmente até o ambiente de produção, de softwares, suas modificações e correções de erro
-1. [[Leitura] O que é DevOps ?](https://db1global-my.sharepoint.com/:p:/g/personal/cesar_sturion_db1_com_br/Ea5Jck4_bJVFhpPjJH2n0wwBkoi_1AZ2Z3O5TlxruA8g3Q?e=4%3AStMMdw&at=9)
+1. [[Leitura] O que é DevOps?](https://db1global-my.sharepoint.com/:p:/g/personal/cesar_sturion_db1_com_br/Ea5Jck4_bJVFhpPjJH2n0wwBkoi_1AZ2Z3O5TlxruA8g3Q?e=4%3AStMMdw&at=9)
 1. [[Curso] Formação DevOps](https://www.alura.com.br/formacao-devops)
 ### Objetivo: Aprender conceitos e tecnologias fora da rotina (Nível 1)
 #### Aprender uma linguagem de programação fora da que trabalha
@@ -338,20 +338,20 @@ Padrões de projeto](https://refactoring.guru/pt-br/design-patterns)
 #### Microsserviços
 1. [Dica] Trata-se de um estilo arquitetural que, de forma abrangente, divide uma solução em pequenos sistemas (serviços) fracamente acoplados, com responsabilidades restritas
 1. [[Áudio/Vídeo] Micro serviços em debate (Arch Month DB1)](https://www.youtube.com/watch?v=KiYMivM3-IU)
-1. [[Leitura] MicroservicesIO - What are microservices ?](https://microservices.io/)
+1. [[Leitura] MicroservicesIO - What are microservices?](https://microservices.io/)
 #### Saga
 1. [Dica] Com o uso de microsserviços, podem ocorrer situações em que uma transação deverá ser distribuída entre serviços diferentes. O padrão Saga descreve uma maneira para garantir essa atomicidade
 1. [[Áudio/Vídeo] Sagas, um pattern sagaz (Arch Month DB1)](https://www.youtube.com/watch?v=wkAXEdgjvx4)
 #### Hexagonal architecture
 1. [Dica] Também chamdo de "ports and adapters", é um padrão de arquitetura que tem como objetivo manter um baixo acoplamento entre os componentes permitindo facilidade de substituição
-1. [[Áudio/Vídeo] Arquitetura Hexagonal ? (Arch Month DB1)](https://www.youtube.com/watch?v=veddUMcWZiM)
+1. [[Áudio/Vídeo] Arquitetura Hexagonal? (Arch Month DB1)](https://www.youtube.com/watch?v=veddUMcWZiM)
 #### Clean architecture
 1. [Dica] Existem muitas maneiras de estruturar/organizar os códigos de uma solução de software. Clean architecture é uma alternativa que apresenta conceitos sólidos na sua concepção
 1. [[Leitura] The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 1. [[Áudio/Vídeo] Introdução ao contexto de Clean Architecture (Arch Month DB1)](https://www.youtube.com/watch?v=g-UxSBRNgN0)
 #### DDD - Domain Driven Design
 1. [Dica] Domain-Driven Design ou Projeto Orientado a Domínios é um padrão de modelagem de software. Os princípios relacionados à esse assunto estão presentes em inúmeras tecnologias e conceitos atuais
-#### O que é arquitetura de software ?
+#### O que é arquitetura de software
 1. [[Áudio/Vídeo] O que é Arquitetura de Software (Arch Month DB1)](https://www.youtube.com/watch?v=NDH_gTQ_PAI)
 1. [[Leitura] Software Architecture Guide](https://martinfowler.com/architecture/)
 1. [[Leitura] Quais são as diferenças entre Arquitetura e Design de Software ?](https://eximia.co/quais-sao-as-diferencas-entre-arquitetura-e-design-de-software/)
