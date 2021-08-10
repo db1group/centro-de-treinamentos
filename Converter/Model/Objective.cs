@@ -13,7 +13,7 @@ namespace Converter.Model
         
         public string Name { get; set; }
         public string NameTrimmed => Name.Length <= 21 ? Name : Name[..21];
-        public string ShortName => $"Nível 1: {NameTrimmed}";
+        public string ShortName => $"Nível {Level}: {NameTrimmed}";
         public int Level { get; set; }
         [JsonIgnore] public virtual int Track { get; set; }
         public virtual IList<Learnable> Learnables { get; set; }
