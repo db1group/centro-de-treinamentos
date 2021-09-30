@@ -76,7 +76,7 @@ Ou `Conteúdo`, é um conteúdo previamente selecionado (curado) por colaborador
    2. Toda interação/comunicação será feita por meio do pull request
 
 ## Contatos
-A gestão deste conteúdo é responsabilidade do time de gestão de pessoas e feedbacks podem ser encaminhados para colocar-outro-email-aqui@db1.com.br
+A gestão deste conteúdo é responsabilidade do time de gestão de pessoas e feedbacks podem ser encaminhados para brenda.rodrigues@db1.com.br ou wilson.simao@db1.com.br.
 
 # Conteúdo deste repositório
 Este repositório git armazena os recursos tecnológicos utilizados na elaboração do level up devs. Cada novo item versionado neste repositório será descrito nas seções a seguir.
