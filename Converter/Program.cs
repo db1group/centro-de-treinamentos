@@ -6,8 +6,8 @@ namespace Converter
     internal static class Program
     {
         private const string Assets = "../../../../Assets";
-        private static readonly string DatabaseFileName = $"{Assets}/centroTreinamento.accdb";
-        private static readonly string JsonFileName = $"{Assets}/Result/centroTreinamento.json";
+        private static readonly string DatabaseFileName = $"{Assets}/levelUpDevs.accdb";
+        private static readonly string JsonFileName = $"{Assets}/Result/levelUpDevs.json";
         private static readonly string MarkdownFileName = $"{Assets}/Result/README.md";
 
         private static void Main()
