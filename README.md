@@ -76,33 +76,10 @@ Ou `Conteúdo`, é um conteúdo previamente selecionado (curado) por colaborador
    2. Toda interação/comunicação será feita por meio do pull request
 
 ## Contatos
-A gestão deste conteúdo é responsabilidade do time de gestão de pessoas e feedbacks podem ser encaminhados para brenda.rodrigues@db1.com.br ou wilson.simao@db1.com.br.
+A gestão deste conteúdo é responsabilidade do time de gestão de pessoas e feedbacks podem ser encaminhados para treinamentos@db1.com.br.
 
 # Conteúdo deste repositório
 Este repositório git armazena os recursos tecnológicos utilizados na elaboração do level up devs. Cada novo item versionado neste repositório será descrito nas seções a seguir.
-
-## Projeto Converter
-Este foi um projeto criado para converter um material inicial no arquivo JSON fonte das informações. Tal projeto será mantido para histórico ou para algum evenutual uso futuro. A estrutura básica deste programa faz as seguintes tarefas:
-
-- Lê uma base de dados `.accdb` e gera um arquivo `JSON`
-- Lê o arquivo `JSON` e gera arquivos `md` (markdown) com um esqueleto do level up devs
-
-Conforme mencionado, o código está preparado para ler um arquivo feito em MS Access, também versionado neste repositório, que contém os dados originais dos materiais do level up devs.
-
-> *Atenção*, este arquivo não será mantido, isto é, o arquivo `.accdb` não será atualizado a partir do JSON depois que as contribuições forem aceitas por meio de pull requests.
-
-### Tecnologias
-- Aplicação console escrita em C# (.net core 3.1)
-- Utiliza Entity Framework para ler o arquivo `.accdb`
-- Utiliza serializador padrão para geração do arquivo `.json`
-- Utiliza classes de domínio para geração de arquivos `.md`
-
-### Input
-- Arquivo [levelUpDevs.accdb](Assets/levelUpDevs.accdb)
-
-### Outputs
-- Arquivo [levelUpDevs.json](Assets/Result/levelUpDevs.json) (contendo o banco de dados representado em JSON)
-- Arquivos `.md` com a representação do level up devs. O material completo pode ser visto [aqui](Assets/Result)
 
 ## Próximos passos
 - Criação de trilhas para outras áreas
