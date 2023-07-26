@@ -2660,7 +2660,15 @@
               "Learnables": [
                 {
                   "Name": "Planning Poker",
-                  "Contents": []
+                  "Contents": [
+                    {
+                      "Description": "Planning Poker: A melhor maneira de estimar qualquer atividade",
+                      "Link": "https://www.metodoagil.com/planning-poker/",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
                 },
                 {
                   "Name": "PERT",
@@ -2683,7 +2691,15 @@
                 },
                 {
                   "Name": "T-SHIRT",
-                  "Contents": []
+                  "Contents": [
+                    {
+                      "Description": "T-Shirt Sizing: Entenda como aplicar essa estimativa por afinidade",
+                      "Link": "https://www.objective.com.br/insights/t-shirt-sizing/",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
                 }
               ]
             },
@@ -2716,11 +2732,25 @@
                   "Name": "Conhecer métodos ágeis",
                   "Contents": [
                     {
-                      "Description": "Métodos Ágeis",
-                      "Link": "https://www.alura.com.br/cursos-online-inovacao-gestao/agilidade",
-                      "Type": "Course",
+                      "Description": "Engenharia de Software - Métodos de desenvolvimento ágeis",
+                      "Link": "https://youtu.be/WuzoIGdOuE8",
+                      "Type": "Watch",
                       "Language": "PT-BR",
                       "Order": 1
+                    },
+                    {
+                      "Description": "Kanban",
+                      "Link": "https://youtu.be/WjZBnYa58B4",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    },
+                    {
+                      "Description": "Scrum",
+                      "Link": "https://youtu.be/XfvQWnRgxG0",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 3
                     }
                   ]
                 }
@@ -2734,7 +2764,22 @@
               "Learnables": [
                 {
                   "Name": "Aprender e aplicar o conceito de DoR",
-                  "Contents": []
+                  "Contents": [
+                    {
+                      "Description": "Definition of Ready (DoR): exemplos e como fazer",
+                      "Link": "https://www.objective.com.br/insights/definition-of-ready-o-que-e-e-como-funciona",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    },
+                    {
+                      "Description": "Não confunda DoR, DoD e Critérios de Aceite",
+                      "Link": "https://medium.com/guma-rs/não-confunda-dod-com-critérios-de-aceite-d030b9a812d9",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 2
+                    }
+                  ]
                 }
               ]
             },
@@ -2745,12 +2790,40 @@
               "Level": 3,
               "Learnables": [
                 {
+                  "Name": "Aprendendo a priorizar",
+                  "Contents": [
+                    {
+                      "Description": "Projetos: Aprendendo a Priorizar",
+                      "Link": "https://youtu.be/akKRtjIqRjs",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
                   "Name": "Método MoSCoW",
-                  "Contents": []
+                  "Contents": [
+                    {
+                      "Description": "Método MoSCoW - Explicação e Aplicação",
+                      "Link": "https://youtu.be/X6Odl2YydPs",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
                 },
                 {
                   "Name": "Método RICE",
-                  "Contents": []
+                  "Contents": [
+                    {
+                      "Description": "Aprendendo a metodologia RICE",
+                      "Link": "https://youtu.be/DNgX8b8_l9g",
+                      "Type": "Watch",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
                 },
                 {
                   "Name": "Gestão do tempo",
@@ -2774,24 +2847,25 @@
               "Learnables": [
                 {
                   "Name": "Aprender sobre técnicas de refinamento",
-                  "Contents": []
-                },
-                {
-                  "Name": "Aprender sobre elaboração de soluções técnica",
                   "Contents": [
                     {
-                      "Description": "C4 model",
-                      "Link": null,
-                      "Type": null,
-                      "Language": null,
-                      "Order": 0
-                    },
+                      "Description": "Backlog grooming: as melhores práticas para refinar o seu produto",
+                      "Link": "https://robsoncamargo.com.br/blog/Conheca-as-melhores-praticas-de-uma-backlog-grooming",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
+                    }
+                  ]
+                },
+                {
+                  "Name": "Aprender sobre elaboração de soluções técnicas",
+                  "Contents": [
                     {
-                      "Description": "mais materiais aqui",
-                      "Link": null,
-                      "Type": null,
-                      "Language": null,
-                      "Order": 0
+                      "Description": "Desenho de arquitetura de software: guia prático e gratuito (db1group.com)",
+                      "Link": "https://carreira.db1group.com/desenho-de-arquitetura-de-software",
+                      "Type": "Read",
+                      "Language": "PT-BR",
+                      "Order": 1
                     }
                   ]
                 }
