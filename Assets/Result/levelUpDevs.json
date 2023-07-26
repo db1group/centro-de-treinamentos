@@ -2817,39 +2817,25 @@
                   "Name": "Conhecer metodologia de OKR",
                   "Contents": [
                     {
-                      "Description": "Material interno DB1",
-                      "Link": "https://db1global.sharepoint.com/:f:/s/intranet/EkwuFDwNROlJvy0ikplJe-YB-IcHNyfiHIFM7Qk1pbT-vg?e=Lfmntf",
-                      "Type": "Read",
+                      "Description": "O que é OKR? Como aplicar OKRs?",
+                      "Link": "https://youtu.be/tju-38rTJfg",
+                      "Type": "Watch",
                       "Language": "PT-BR",
                       "Order": 1
-                    },
-                    {
-                      "Description": "Como definir os Resultados Chave | OKR",
-                      "Link": "https://open.spotify.com/episode/7zsEQHPlvbEzJmE8K6BuQ3?si=f336b213abb84067",
-                      "Type": "Watch",
-                      "Language": "PT-BR",
-                      "Order": 2
-                    },
-                    {
-                      "Description": "COMO UTILIZAR OKR PARA FAZER O SEU PROJETO CRESCER | Podcast Seja Ágil",
-                      "Link": "https://open.spotify.com/episode/54YRc0rPFrCDKrfJk4X10l?si=4a75c1e84ec14cef",
-                      "Type": "Watch",
-                      "Language": "PT-BR",
-                      "Order": 3
                     },
                     {
                       "Description": "Introdução às OKRs",
                       "Link": "https://hr-rocks-academy.teachable.com/p/curso-de-introducao-a-okrs",
                       "Type": "Course",
                       "Language": "PT-BR",
-                      "Order": 4
+                      "Order": 2
                     },
                     {
                       "Description": "Aprenda OKR",
                       "Link": "https://felipecastro.com/pt-br/okr/",
                       "Type": "Read",
                       "Language": "PT-BR",
-                      "Order": 5
+                      "Order": 3
                     }
                   ]
                 },
@@ -2902,7 +2888,12 @@
               "NameTrimmed": "Aprender o Código de ",
               "ShortName": "Nível 1: Aprender o Código de ",
               "Level": 1,
-              "Learnables": []
+              "Learnables": [
+                {
+                  "Name": "Caso não tenha o código de conduta do programador, procure um membro do comitê técnico",
+                  "Contents": []
+                }
+              ]
             },
             {
               "Name": "Conhecer e aplicar técnicas de negociação",
